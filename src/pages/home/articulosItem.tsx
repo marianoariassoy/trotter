@@ -7,7 +7,7 @@ const articulosItem = ({
 }) => {
   return (
     <article className='rounded-2xl p-4 flex gap-4 border border-primary'>
-      <div className='aspect-square max-w-38 lg:max-w-44'>
+      <div className='aspect-square max-w-44'>
         <img
           src={item.image}
           alt={item.title_en}
