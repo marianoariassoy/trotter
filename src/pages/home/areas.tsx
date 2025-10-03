@@ -197,7 +197,7 @@ const AboutText = ({ lan }: { lan: string }) => {
                 ? 'I provide business-focused legal services that integrate corporate law, immigration, and cross-border strategy.'
                 : 'Presto servicios jurídicos centrados en los negocios que integran el derecho corporativo, la inmigración y la estrategia transfronteriza.'
             }
-            image='/assets/article1.jpg'
+            image='/assets/article4.jpg'
             items={dataBusiness}
             title2={lan === 'en' ? 'Why it matters:' : '¿Por qué es importante?'}
             text2={
@@ -217,7 +217,7 @@ const AboutText = ({ lan }: { lan: string }) => {
                 ? 'I provide counsel to private and closely held companies on:'
                 : 'Presto servicios jurídicos centrados en los negocios que integran el derecho corporativo, la inmigración y la estrategia transfronteriza.'
             }
-            image='/assets/article2.jpg'
+            image='/assets/article5.jpg'
             items={dataCorporate}
             title2={
               lan === 'en'
@@ -237,7 +237,7 @@ const AboutText = ({ lan }: { lan: string }) => {
                 ? 'I guide buyers, sellers, and investors through complex deals:'
                 : 'Asesoro a compradores, vendedores e inversores en transacciones complejas:'
             }
-            image='/assets/article3.jpg'
+            image='/assets/article6.jpg'
             items={dataMergers}
             title2={
               lan === 'en'
@@ -257,7 +257,7 @@ const AboutText = ({ lan }: { lan: string }) => {
                 ? 'I work with corporations, executives, and individuals to navigate U.S. immigration law:'
                 : 'Trabajo con empresas, ejecutivos y particulares para orientarlos en materia de legislación migratoria estadounidense:'
             }
-            image='/assets/article4.jpg'
+            image='/assets/article1.jpg'
             items={dataInmigration}
             title2={
               lan === 'en'
@@ -281,7 +281,7 @@ const AboutText = ({ lan }: { lan: string }) => {
                 ? 'For businesses and investors operating across jurisdictions, I provide:'
                 : 'Para empresas e inversores que operan en diferentes jurisdicciones, ofrezco:'
             }
-            image='/assets/article5.jpg'
+            image='/assets/article2.jpg'
             items={dataCrossBorder}
             title2=''
             text2=''

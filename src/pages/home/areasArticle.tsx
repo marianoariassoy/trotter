@@ -18,7 +18,7 @@ const areasTip = ({
   return (
     <article className='flex flex-col gap-y-8 lg:gap-y-12'>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
-        <div className='pt-8 mb-4'>
+        <div className='pt-8 mb-4 lg:pr-20'>
           <h1 className='text-primary font-medium text-4xl mb-2'>{title}</h1>
           <p className='font-medium text-lg'>{text}</p>
         </div>
