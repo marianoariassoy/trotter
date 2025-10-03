@@ -10,12 +10,12 @@ const about = ({ lan }: { lan: string }) => {
         <img
           src='/assets/img-left.webp'
           alt='about'
-          className='h-full absolute -ml-[55%] lg:-ml-[200px]'
+          className='h-full absolute -ml-[65%] lg:-ml-[200px]'
         />
         <img
           src='/assets/img-right.webp'
           alt='about'
-          className='h-full absolute right-0 -mr-[55%] lg:-mr-[200px]'
+          className='h-full absolute right-0 -mr-[65%] lg:-mr-[200px]'
         />
 
         <div className='text-center text-primary flex flex-col gap-2 lg:gap-y-6 pt-12 pb-40 relative z-10'>
@@ -47,7 +47,8 @@ const about = ({ lan }: { lan: string }) => {
           </span>
           <span className='py-4 px-8 font-medium bg-primary text-white text-center rounded-full'>Trotter PRO</span>
         </div>
-        <div className='aspect-[7/5]'>
+
+        <div className='aspect-[7/5] w-full'>
           <img
             src='/assets/profile.jpg'
             alt='about'
