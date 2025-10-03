@@ -1,10 +1,10 @@
 const about = ({ lan }: { lan: string }) => {
   return (
     <div
-      className='flex flex-col gap-y-8 relative bg-[url("/assets/bg-social.svg")] bg-cover lg:bg-contain bg-center bg-no-repeat bg-opa'
+      className='flex flex-col gap-y-8 relative bg-[url("/assets/bg-social.svg")] bg-cover lg:bg-contain bg-center bg-no-repeat'
       id='about'
     >
-      <div className='relative px-4'>
+      <div className='w-full relative px-4'>
         <div className='absolute h-40 w-full z-20 inset-0 bg-gradient-to-b from-white/70 via-transparent to-white/0'></div>
 
         <img
@@ -38,7 +38,7 @@ const about = ({ lan }: { lan: string }) => {
       </div>
 
       <div className='max-w-5xl m-auto flex flex-col gap-y-12 px-4'>
-        <div className='grid grid-cols-1 lg:grid-cols-3 items-center justify-center gap-y-2 gap-x-4'>
+        <div className='w-full grid grid-cols-1 lg:grid-cols-3 items-center justify-center gap-y-2 gap-x-4'>
           <span className='py-4 px-8 font-medium bg-primary text-white text-center rounded-full'>
             M. Victoria Sánchez
           </span>
