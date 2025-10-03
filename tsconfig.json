@@ -22,6 +22,5 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": false
   },
-  "include": ["src", "ItemImage.tsx"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src", "ItemImage.tsx"]
 }
