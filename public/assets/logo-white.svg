@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-8b09e982-bf0b-4c96-a283-0b2a8df14047" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="133.7mm" height="27.1mm" viewBox="0 0 378.9 76.8">
+  <defs>
+    <style>
+      .uuid-e2bca9d3-327f-4d36-a723-9041a7750a8e {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="uuid-41752df4-92eb-482c-9b35-6d9fee655162" data-name="Capa 1">
+    <g>
+      <path class="uuid-e2bca9d3-327f-4d36-a723-9041a7750a8e" d="M140.3,76.2c-6.8,0-12.3-5.6-12.3-12.6V20.5h42.3c6.8,0,12.3,5.6,12.3,12.6v43.1h-42.3Zm29.6-13v-29.7h-29.2v29.7h29.2Z"/>
+      <path class="uuid-e2bca9d3-327f-4d36-a723-9041a7750a8e" d="M287.6,76.8c-6.8,0-12.3-5.6-12.3-12.6V21.1h42.3c6.8,0,12.3,5.6,12.3,12.6v21.7h-41.9v8.3h41.9v13h-42.3Zm29.6-34.3v-8.3h-29.2v8.3h29.2Z"/>
+      <path class="uuid-e2bca9d3-327f-4d36-a723-9041a7750a8e" d="M336.3,76.8V33.7c0-7,5.5-12.6,12.3-12.6h30.3v13h-29.9v42.7h-12.7Z"/>
+      <path class="uuid-e2bca9d3-327f-4d36-a723-9041a7750a8e" d="M244.9,0h-12.7V14.6h12.7V0Z"/>
+      <path class="uuid-e2bca9d3-327f-4d36-a723-9041a7750a8e" d="M244.5,76.8c-6.8,0-12.3-5.6-12.3-12.6V21.1h36.7v13h-24v29.7h24v13h-24.4Z"/>
+      <path class="uuid-e2bca9d3-327f-4d36-a723-9041a7750a8e" d="M201.8,0h-12.7V14.6h12.7V0Z"/>
+      <path class="uuid-e2bca9d3-327f-4d36-a723-9041a7750a8e" d="M201.4,76.8c-6.8,0-12.3-5.6-12.3-12.6V21.1h36.7v13h-24v29.7h24v13h-24.4Z"/>
+      <path class="uuid-e2bca9d3-327f-4d36-a723-9041a7750a8e" d="M79,76.8V33.7c0-7,5.5-12.6,12.3-12.6h30.3v13h-29.9v42.7h-12.7Z"/>
+      <path class="uuid-e2bca9d3-327f-4d36-a723-9041a7750a8e" d="M30,76.8V21.1H0V8.1H30.4c6.8,0,12.3,5.6,12.3,12.6v56.1h-12.7Z"/>
+      <path class="uuid-e2bca9d3-327f-4d36-a723-9041a7750a8e" d="M30,76.8V20.7c0-7,5.5-12.6,12.3-12.6h30.4v13h-30v55.7h-12.7Z"/>
+    </g>
+  </g>
+</svg>

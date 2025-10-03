@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #666d9c;
+  --color-secondary: #f79547;
+  --color-text: #2d3250;
+  --font-sans: 'Urbanist', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
+
+body {
+  color: #2d3250;
+}
+
+.nav-menu {
+  cursor: pointer;
+  width: 40px;
+}
+.nav-menu > span {
+  background-color: currentColor;
+  display: block;
+  height: 2px;
+  width: 40px;
+}
+.nav-menu > span:not(:last-child) {
+  margin-bottom: 8px;
+}
+.nav-menu,
+.nav-menu > span {
+  transition: all 0.25s ease;
+}
+.nav-menu.active {
+  transform: rotate(45deg);
+  transition-delay: 0.25s;
+}
+.nav-menu.active > span:nth-child(1) {
+  transform: translateY(9px);
+}
+.nav-menu.active > span:nth-child(2) {
+  transform: translateY(-2px) rotate(90deg);
+}
+
+.show-menu {
+  top: -450px;
+}
