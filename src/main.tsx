@@ -3,12 +3,12 @@ import { createRoot } from 'react-dom/client'
 import './styles/index.css'
 import './styles/animations.css'
 import { ContextProvider } from './context/context'
-import Home from './pages/home'
+import App from './App'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ContextProvider>
-      <Home />
+      <App />
     </ContextProvider>
   </StrictMode>
 )

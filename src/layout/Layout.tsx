@@ -11,7 +11,7 @@ const Layout = ({ children }: Props) => {
     <>
       <Header />
       <MenuMobile />
-      <main className='w-screen overflow-hidden'>{children}</main>
+      <main className='w-full overflow-hidden'>{children}</main>
       <Footer />
     </>
   )

@@ -19,20 +19,20 @@ const porque = ({ lan }: { lan: string }) => {
       text_en: 'English, Spanish, Portuguese, Turkish for truly global communication.',
       title_es: ' Soporte multilingüe',
       text_es: 'Inglés, español, portugués, turco para comuicación realmente global.',
-      image: '/assets/porque3.jpg'
+      image: '/assets/porque2.jpg'
     },
     {
       title_en: 'Modern, Efficient Processes',
       text_en: 'Leveraging technology to streamline immigration and legal workflows.',
       title_es: 'Procesos modernos y eficientes',
       text_es: 'Utilizando tecnología para mejorar el flujo de trabajo de inmigración y procesos legales.',
-      image: '/assets/porque2.jpg'
+      image: '/assets/porque3.jpg'
     }
   ]
 
   return (
     <section
-      className='px-4 max-w-5xl m-auto flex flex-col gap-y-12'
+      className='px-4 max-w-5xl m-auto flex flex-col gap-y-12 mt-20'
       id='why-trotter'
     >
       <div className='max-w-2xl m-auto flex flex-col justify-center items-center gap-y-4 text-center'>
@@ -49,15 +49,21 @@ const porque = ({ lan }: { lan: string }) => {
         {data.map((item, index) => (
           <div
             key={index}
-            className='border border-primary rounded-3xl p-6 lg:p-8 flex flex-col gap-y-2 items-start aspect-[7/4] bg-cover bg-no-repeat'
-            style={{
-              backgroundImage: `url(${item.image})`
-            }}
+            className='group relative border border-primary rounded-3xl p-6 lg:p-8 flex flex-col gap-y-2 items-start aspect-[7/4] overflow-hidden'
           >
-            <h1 className='text-primary font-medium text-2xl lg:text-3xl'>
-              {lan === 'en' ? item.title_en : item.title_es}
-            </h1>
-            <p className='lg:text-lg'>{lan === 'en' ? item.text_en : item.text_es}</p>
+            {/* Fondo con imagen y animación */}
+            <div
+              className='absolute inset-0 bg-cover bg-no-repeat transition-transform duration-700 ease-out group-hover:scale-110'
+              style={{ backgroundImage: `url(${item.image})` }}
+            ></div>
+
+            {/* Contenido */}
+            <div className='relative z-10'>
+              <h1 className='text-primary font-medium text-2xl lg:text-3xl'>
+                {lan === 'en' ? item.title_en : item.title_es}
+              </h1>
+              <p className='lg:text-lg'>{lan === 'en' ? item.text_en : item.text_es}</p>
+            </div>
           </div>
         ))}
       </div>

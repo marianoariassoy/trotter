@@ -174,7 +174,7 @@ const AboutText = ({ lan }: { lan: string }) => {
               {lan === 'en' ? 'Practice Areas ' : 'Áreas de Practica'}
             </h1>
           </div>
-          <div className='flex flex-col gap-y-2 pb-12'>
+          <div className='flex flex-col gap-y-2 pb-8 lg:pb-12'>
             {data.map((item, index) => (
               <button
                 key={index}

@@ -16,9 +16,15 @@ const Index = () => {
       <Hero lan={lan} />
       <About lan={lan} />
       <Areas lan={lan} />
-      <Social lan={lan} />
-      <Porque lan={lan} />
-      <Articulos lan={lan} />
+      <div
+        className='w-full bg-cover'
+        style={{ backgroundImage: `url(/assets/bg.webp)` }}
+      >
+        <Porque lan={lan} />
+        <Articulos lan={lan} />
+        <Social lan={lan} />
+      </div>
+
       <Contacto lan={lan} />
     </Layout>
   )

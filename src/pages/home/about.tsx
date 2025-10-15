@@ -65,9 +65,9 @@ const about = ({ lan }: { lan: string }) => {
               Tech-Savvy Business Law Services Founder | Cross-Border Deal Architect | Community Volunteer
               <br />
               <br />
-              Victoria Sanchez is the founder of <strong>Trotter Law PLLC</strong> a lawfirm. Trotter Law blends
-              top-tier legal acumen with smart technology to deliver faster, “smarter”, and more cost-effective legal
-              solutions—designed with the client’s journey in mind. Our motto is Client First.
+              Victoria Sanchez is the founder of Trotter Law PLLC a lawfirm. Trotter Law blends top-tier legal acumen
+              with smart technology to deliver faster, “smarter”, and more cost-effective legal solutions—designed with
+              the client’s journey in mind. Our motto is Client First.
               <br />
               <br />
               A seasoned attorney and Harvard Law graduate, Victoria brings over two decades of experience in venture
@@ -84,16 +84,15 @@ const about = ({ lan }: { lan: string }) => {
               more accessible and transparent through the thoughtful integration of automation and AI.
               <br />
               <br />
-              Beyond her practice, she serves as an advisor to the board of <strong>WeInvest LATAM</strong> , an NGO of
-              female investors in Latam working together to educate and to advance innovative opportunities within Latin
-              America. She is also a dedicated community volunteer, supporting initiatives for public education, an avid
-              reader and a tennis player.
+              Beyond her practice, she serves as an advisor to the board of WeInvest LATAM , an NGO of female investors
+              in Latam working together to educate and to advance innovative opportunities within Latin America. She is
+              also a dedicated community volunteer, supporting initiatives for public education, an avid reader and a
+              tennis player.
               <br />
               <br />
-              Victoria founded <strong>Trotter Law PLLC</strong> to provide{' '}
-              <strong>business-focused legal services</strong> that integrate corporate law, immigration, and
-              cross-border strategy. She also launched Trotter Pro, to bring efficiency and clarity to U.S. immigration
-              processes, and created <strong> El Libro Mágico Amarillo</strong> , a personalized children’s book project
+              Victoria founded Trotter Law PLLC to provide business-focused legal services that integrate corporate law,
+              immigration, and cross-border strategy. She also launched Trotter Pro, to bring efficiency and clarity to
+              U.S. immigration processes, and created El Libro Mágico Amarillo , a personalized children’s book project
               for Spanish-speaking families.
             </p>
           ) : (

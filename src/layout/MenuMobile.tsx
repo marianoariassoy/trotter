@@ -21,7 +21,7 @@ const MenuMobile = () => {
 
   return (
     <div
-      className='fixed w-screen top-30 show-menu px-4 z-40 transition-all duration-500 ease-in-out'
+      className='fixed w-screen top-30 show-menu px-4 z-40 transition-all duration-500 ease-in-out lg:hidden'
       id='menu-mobile'
     >
       <nav className='p-8 rounded-4xl bg-white/60 backdrop-blur-lg flex flex-col justify-center items-center gap-4'>

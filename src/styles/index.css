@@ -3,6 +3,7 @@
 @theme {
   --color-primary: #666d9c;
   --color-secondary: #f79547;
+  --color-tertiary: #636579;
   --color-text: #2d3250;
   --font-sans: 'Urbanist', ui-sans-serif, system-ui, sans-serif;
 }
@@ -47,4 +48,8 @@ body {
 
 .show-menu {
   top: -450px;
+}
+
+.text-tertiary {
+  color: var(--color-tertiary);
 }

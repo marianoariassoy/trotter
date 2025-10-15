@@ -3,7 +3,7 @@ import Form from './form'
 const contacto = ({ lan }: { lan: string }) => {
   return (
     <section
-      className='px-4 mt-12 lg:mt-20'
+      className='px-4'
       id='contact'
     >
       <h1 className='text-primary text-center font-medium text-3xl lg:text-5xl mb-12'>
