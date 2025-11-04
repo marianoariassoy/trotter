@@ -1,4 +1,10 @@
-const about = ({ lan }: { lan: string }) => {
+import useFetch from '../../hooks/useFetch'
+import Loader from '../../components/Loader'
+
+const About = ({ lan }: { lan: string }) => {
+  const { data, loading } = useFetch(`/texts`)
+  if (!data) return null
+
   return (
     <div
       className='flex flex-col gap-y-8 relative bg-[url("/assets/bg-social.svg")] bg-cover lg:bg-contain bg-center bg-no-repeat'
@@ -58,75 +64,9 @@ const about = ({ lan }: { lan: string }) => {
       </div>
 
       <div className='max-w-5xl m-auto flex flex-col gap-y-8 px-4'>
-        <div className='text-sm lg:text-lg lg:leading-6 font-medium'>
+        <div className='text-sm lg:text-lg lg:leading-6 font-medium whitespace-break-spaces'>
           <h3 className='font-bold'>{lan === 'en' ? 'Founder | Trotter' : 'Fundador | Trotter'}</h3>
-          {lan === 'en' ? (
-            <p>
-              Tech-Savvy Business Law Services Founder | Cross-Border Deal Architect | Community Volunteer
-              <br />
-              <br />
-              Victoria Sanchez is the founder of Trotter Law PLLC a lawfirm. Trotter Law blends top-tier legal acumen
-              with smart technology to deliver faster, “smarter”, and more cost-effective legal solutions—designed with
-              the client’s journey in mind. Our motto is Client First.
-              <br />
-              <br />
-              A seasoned attorney and Harvard Law graduate, Victoria brings over two decades of experience in venture
-              capital, M&A, and international structuring. Her legal career spans multinational financial institutions,
-              tech firms and top-tier law firms across Latin America, the U.S., and Europe. She has advised startups,
-              growth-stage companies, and investors navigating complex cross-border transactions and regulatory
-              landscapes. Her professional journey includes roles at Patagon.com, Mastercard, JP Morgan Securities,
-              Greenberg Traurig and PAG.LAW, as well as leadership positions in private firms and entrepreneurial
-              ventures.
-              <br />
-              <br />
-              Victoria’s fluency in English, Spanish, Portuguese, and conversational Turkish reflects her truly global
-              practice—and client base. Her multicultural insight is matched by her commitment to making legal services
-              more accessible and transparent through the thoughtful integration of automation and AI.
-              <br />
-              <br />
-              Beyond her practice, she serves as an advisor to the board of WeInvest LATAM , an NGO of female investors
-              in Latam working together to educate and to advance innovative opportunities within Latin America. She is
-              also a dedicated community volunteer, supporting initiatives for public education, an avid reader and a
-              tennis player.
-              <br />
-              <br />
-              Victoria founded Trotter Law PLLC to provide business-focused legal services that integrate corporate law,
-              immigration, and cross-border strategy. She also launched Trotter Pro, to bring efficiency and clarity to
-              U.S. immigration processes, and created El Libro Mágico Amarillo , a personalized children’s book project
-              for Spanish-speaking families.
-            </p>
-          ) : (
-            <p>
-              Fundadora de servicios jurídicos especializados en tecnología | Arquitecta de acuerdos transfronterizos |
-              Voluntaria comunitaria
-              <br />
-              <br />
-              Victoria Sánchez es la fundadora del bufete de abogados Trotter Law PLLC. Trotter Law combina una gran
-              perspicacia jurídica con tecnología inteligente para ofrecer soluciones legales más rápidas, «más
-              inteligentes» y más rentables, diseñadas teniendo en cuenta la trayectoria del cliente. Nuestro lema es
-              «El cliente es lo primero».
-              <br />
-              <br />
-              Victoria, una abogada con amplia experiencia y graduada en Derecho por Harvard, cuenta con más de dos
-              décadas de experiencia en capital riesgo, fusiones y adquisiciones y estructuración internacional. Su
-              carrera jurídica abarca instituciones financieras multinacionales, empresas tecnológicas y bufetes de
-              abogados de primer nivel en América Latina, Estados Unidos y Europa. Ha asesorado a empresas emergentes,
-              empresas en fase de crecimiento e inversores en transacciones transfronterizas complejas y entornos
-              normativos. Su trayectoria profesional incluye puestos en Patagon.com, Mastercard, JP Morgan Securities,
-              Greenberg Traurig y PAG.LAW, así como puestos de liderazgo en empresas privadas y proyectos empresariales.
-              <br />
-              <br />
-              El dominio de Victoria del inglés, el español, el portugués y el turco coloquial refleja su práctica
-              verdaderamente global y su base de clientes. Su visión multicultural se complementa con su compromiso de
-              hacer que los servicios jurídicos sean más accesibles y transparentes mediante la integración cuidadosa de
-              la automatización y la inteligencia artificial.
-              <br />
-              <br />
-              Más allá de su práctica, es asesora de la junta directiva de WeInvest LATAM, una ONG de mujeres inversoras
-              de Latinoamérica que trabajan juntas para educar y promover oportunidades innovadoras en América Latina.
-              Ella es
-            </p>
-          )}
+          {loading ? <Loader /> : lan === 'en' ? data[1].text_en : data[1].text}
         </div>
         {lan === 'en' ? (
           <div className='text-primary lg:text-xl flex flex-col lg:leading-6'>
@@ -168,4 +108,4 @@ const about = ({ lan }: { lan: string }) => {
   )
 }
 
-export default about
+export default About

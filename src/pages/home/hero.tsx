@@ -1,4 +1,10 @@
-const hora = ({ lan }: { lan: string }) => {
+import useFetch from '../../hooks/useFetch'
+import Loader from '../../components/Loader'
+
+const Hora = ({ lan }: { lan: string }) => {
+  const { data, loading } = useFetch(`/texts`)
+  if (!data) return null
+
   return (
     <section
       className='py-[30vh] bg-[url("/assets/hero_bg.webp")] bg-cover bg-no-repeat flex items-center justify-center px-4 relative bg-[center_50%]'
@@ -14,17 +20,12 @@ const hora = ({ lan }: { lan: string }) => {
             ? 'Strategic Legal Guidance for Businesses and Individuals'
             : 'Asistencia Jurídica Estratégica para Negocios y Individuos'}
         </span>
-        <div className='font-medium  m-auto whitespace-break-spaces'>
-          {lan === 'en'
-            ? `M. Victoria Sánchez, founder of Trotter Law PLLC, a Florida professional limited liability company. Over 25 years of experience, businesses and individuals build, grow, and move across borders with confidence. 
-          At Trotter Law PLLC we practice combines business law, corporate transactions, mergers & acquisitions, global mobility and immigration, offering clients seamless, practical solutions.`
-            : `M. Victoria Sánchez, fundadora de Trotter Law PLLC, una compañía de responsabilidad limitada de Florida. Con más de 25 años de experiencia, empresas y individuos construyen, crecen y mueven a través de fronteras con confianza. 
-
-            En Trotter Law PLLC practicamos la combinación de derechos de negocios, transacciones corporativas, fusiones y inmigración, ofreciendo soluciones prácticas seamless.`}
+        <div className='font-medium m-auto whitespace-break-spaces'>
+          {loading ? <Loader /> : lan === 'en' ? data[0].text_en : data[0].text}
         </div>
       </div>
     </section>
   )
 }
 
-export default hora
+export default Hora
