@@ -1,6 +1,7 @@
 import { useDataContext } from '../context/useDataContext'
 import { menu } from '../lib/data'
 import Lan from './Lan'
+import { Link } from 'wouter'
 
 const MenuMobile = () => {
   const { lan } = useDataContext()
@@ -28,12 +29,13 @@ const MenuMobile = () => {
         <ul className='flex flex-col gap-2 font-semibold items-center'>
           {menu.map((item, index) => (
             <li key={index}>
-              <button
+              <Link
+                to={`/#` + item.tag}
                 onClick={() => scrollToSection(item.tag)}
                 className='hover:text-secondary'
               >
                 {lan === 'es' ? item.title_es : item.title_en}
-              </button>
+              </Link>
             </li>
           ))}
           <li>

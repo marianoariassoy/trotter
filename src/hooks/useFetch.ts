@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
-const apiUrl = 'http://fabricalacefira.com.ar/backend/api'
+const apiUrl = 'https://backend.ligadecapitanes.com.ar/trotter/api'
+// const apiUrl = 'http://localhost/sites/trotter-backend/api'
 import axios from 'axios'
 
 type Data = string

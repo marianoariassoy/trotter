@@ -69,24 +69,26 @@ const Header = () => {
                         onClick={() => setOpenSubMenu(!openSubMenu)}
                       >
                         {item.subMenu.map((itemSubmenu, index) => (
-                          <button
+                          <Link
                             key={index}
+                            to={`/#` + item.tag}
                             onClick={() => scrollToSection(item.tag)}
                             className='hover:text-secondary cursor-pointer leading-4'
                           >
                             {lan === 'es' ? itemSubmenu.title_es : itemSubmenu.title_en}
-                          </button>
+                          </Link>
                         ))}
                       </div>
                     )}
                   </>
                 ) : (
-                  <button
+                  <Link
                     onClick={() => scrollToSection(item.tag)}
+                    to={`/#` + item.tag}
                     className='hover:text-secondary cursor-pointer'
                   >
                     {lan === 'es' ? item.title_es : item.title_en}
-                  </button>
+                  </Link>
                 )}
               </li>
             ))}
