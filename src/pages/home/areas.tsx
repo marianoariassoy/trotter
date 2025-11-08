@@ -168,17 +168,16 @@ const AboutText = ({ lan }: { lan: string }) => {
         className='max-w-5xl m-auto mt-12 lg:mt-20 px-4'
         id='practice-areas'
       >
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
-          <div>
-            <h1 className='text-primary font-medium text-4xl lg:text-6xl pr-20 mb-8'>
-              {lan === 'en' ? 'Practice Areas ' : 'Áreas de Practica'}
-            </h1>
-          </div>
-          <div className='flex flex-col gap-y-2 pb-8 lg:pb-12'>
+        <div>
+          <h1 className='text-primary font-medium text-4xl lg:text-6xl pr-20 mb-8'>
+            {lan === 'en' ? 'Practice Areas ' : 'Áreas de Practica'}
+          </h1>
+
+          <div className='flex items-center gap-2 flex-wrap mb-4'>
             {data.map((item, index) => (
               <button
                 key={index}
-                className={`border border-primary rounded-full p-4 text-primary font-medium hover:text-white  ${
+                className={`border text-sm border-primary rounded-full p-4 text-primary font-medium hover:text-white  ${
                   active === item.title_en ? 'bg-primary cursor-pointer text-white' : 'hover:bg-primary cursor-pointer'
                 }`}
                 onClick={() => setActive(item.title_en)}
@@ -197,7 +196,7 @@ const AboutText = ({ lan }: { lan: string }) => {
                 ? 'I provide business-focused legal services that integrate corporate law, immigration, and cross-border strategy.'
                 : 'Presto servicios jurídicos centrados en los negocios que integran el derecho corporativo, la inmigración y la estrategia transfronteriza.'
             }
-            image='/assets/article4.jpg'
+            // image='/assets/article4.jpg'
             items={dataBusiness}
             title2={lan === 'en' ? 'Why it matters:' : '¿Por qué es importante?'}
             text2={
@@ -217,7 +216,7 @@ const AboutText = ({ lan }: { lan: string }) => {
                 ? 'I provide counsel to private and closely held companies on:'
                 : 'Presto servicios jurídicos centrados en los negocios que integran el derecho corporativo, la inmigración y la estrategia transfronteriza.'
             }
-            image='/assets/article5.jpg'
+            // image='/assets/article5.jpg'
             items={dataCorporate}
             title2={
               lan === 'en'
@@ -237,7 +236,7 @@ const AboutText = ({ lan }: { lan: string }) => {
                 ? 'I guide buyers, sellers, and investors through complex deals:'
                 : 'Asesoro a compradores, vendedores e inversores en transacciones complejas:'
             }
-            image='/assets/article6.jpg'
+            // image='/assets/article6.jpg'
             items={dataMergers}
             title2={
               lan === 'en'
@@ -257,7 +256,7 @@ const AboutText = ({ lan }: { lan: string }) => {
                 ? 'I work with corporations, executives, and individuals to navigate U.S. immigration law:'
                 : 'Trabajo con empresas, ejecutivos y particulares para orientarlos en materia de legislación migratoria estadounidense:'
             }
-            image='/assets/article1.jpg'
+            // image='/assets/article1.jpg'
             items={dataInmigration}
             title2={
               lan === 'en'
@@ -281,7 +280,7 @@ const AboutText = ({ lan }: { lan: string }) => {
                 ? 'For businesses and investors operating across jurisdictions, I provide:'
                 : 'Para empresas e inversores que operan en diferentes jurisdicciones, ofrezco:'
             }
-            image='/assets/article2.jpg'
+            // image='/assets/article2.jpg'
             items={dataCrossBorder}
             title2=''
             text2=''

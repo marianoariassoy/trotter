@@ -6,6 +6,12 @@ export const menu = [
     subMenu: []
   },
   {
+    title_es: 'Por Que Trotter',
+    title_en: 'How We Work',
+    tag: 'why-trotter',
+    subMenu: []
+  },
+  {
     title_es: 'Nosotros',
     title_en: 'About',
     tag: 'about',
@@ -44,16 +50,21 @@ export const menu = [
     ]
   },
   {
-    title_es: 'Por Que Trotter Law PLLC',
-    title_en: 'Why Clients Work With Trotter Law PLLC',
-    tag: 'why-trotter',
-    subMenu: []
-  },
-  {
-    title_es: 'Articulos',
-    title_en: 'Articles',
+    title_es: 'Recursos',
+    title_en: 'Resources',
     tag: 'articles',
-    subMenu: []
+    subMenu: [
+      {
+        title_es: 'Artículos',
+        title_en: 'Articles',
+        tag: 'articles'
+      },
+      {
+        title_es: 'Noticias',
+        title_en: 'News',
+        tag: 'news'
+      }
+    ]
   },
   {
     title_es: 'Contacto',

@@ -7,22 +7,40 @@ const Hora = ({ lan }: { lan: string }) => {
 
   return (
     <section
-      className='py-[30vh] bg-[url("/assets/hero_bg.webp")] bg-cover bg-no-repeat flex items-center justify-center px-4 relative bg-[center_50%]'
+      className='bg-[url("/assets/hero_bg.webp")] bg-cover bg-no-repeat items-center justify-center px-4 relative bg-[center_50%] flex flex-col'
       id='home'
     >
+      <div className='aspect-square lg:aspect-video w-full mt-40 mb-4 max-w-4xl m-auto z-20'>
+        <img
+          src='https://backend.ligadecapitanes.com.ar/trotter/images-static/mainimage.jpg'
+          alt='logo'
+          className='w-full h-full rounded-4xl object-cover z-20'
+        />
+      </div>
       <div className='absolute inset-0 bg-gradient-to-b from-white/50 via-transparent to-white'></div>;
-      <div className='relative z-10 max-w-4xl m-auto flex flex-col gap-y-8 lg:gap-y-10 items-center justify-center text-center px-8'>
-        <h1 className='text-4xl lg:text-6xl text-primary font-medium'>
-          {lan === 'en' ? 'Business, Corporate, and Immigration Lawyer' : 'Negocios, Empresas y Inmigración Legal'}
-        </h1>
-        <span className='p-4 px-8 font-medium bg-primary text-white text-center rounded-full'>
-          {lan === 'en'
-            ? 'Strategic Legal Guidance for Businesses and Individuals'
-            : 'Asistencia Jurídica Estratégica para Negocios y Individuos'}
-        </span>
+      <div className='relative z-10 max-w-4xl m-auto flex flex-col gap-y-4 lg:gap-y-10 items-center justify-center text-center px-8'>
+        <div className='flex flex-col gap-y-4'>
+          <h1 className='text-4xl lg:text-6xl text-primary font-medium'>
+            {lan === 'en' ? 'Smart, Strategic, and Trusted Legal counsel' : 'Negocio y Asesora Legal de Calidad'}
+          </h1>
+          <span className='font-medium text-center text-2xl'>
+            {lan === 'en'
+              ? 'Modern Law. Powered by technology with human approach'
+              : 'Negocio moderno. Con tecnología y enfoque humano'}
+          </span>
+        </div>
+
         <div className='font-medium m-auto whitespace-break-spaces'>
           {loading ? <Loader /> : lan === 'en' ? data[0].text_en : data[0].text}
         </div>
+        <a
+          href='http://'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='p-4 px-8 mt-4 font-medium bg-primary text-white text-center rounded-full hover:bg-primary/80'
+        >
+          {lan === 'en' ? 'Book Appointment' : 'Reservar una cita'}
+        </a>
       </div>
     </section>
   )
