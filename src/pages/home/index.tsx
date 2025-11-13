@@ -1,7 +1,7 @@
 import Layout from '../../layout/Layout'
 import Hero from './hero'
 import About from './about'
-import Testimonials from './testimonials'
+// import Testimonials from './testimonials'
 import Areas from './areas'
 // import Social from './social'
 import Porque from './porque'
@@ -17,7 +17,7 @@ const Index = () => {
       <Hero lan={lan} />
       <Porque lan={lan} />
       <About lan={lan} />
-      <Testimonials lan={lan} />
+      {/* <Testimonials lan={lan} /> */}
       <Areas lan={lan} />
       <div
         className='w-full bg-cover'

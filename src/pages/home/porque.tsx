@@ -1,11 +1,10 @@
 const porque = ({ lan }: { lan: string }) => {
   const Icon1 = () => (
     <svg
-      xmlns='http://www.w3.org/2000/svg'
-      className='h-12 fill-current'
-      viewBox='0 0 640 640'
+      className='h-16 fill-current'
+      viewBox='0 0 512 512'
     >
-      <path d='M184 120C184 89.1 209.1 64 240 64L264 64C281.7 64 296 78.3 296 96L296 544C296 561.7 281.7 576 264 576L232 576C202.2 576 177.1 555.6 170 528C169.3 528 168.7 528 168 528C123.8 528 88 492.2 88 448C88 430 94 413.4 104 400C84.6 385.4 72 362.2 72 336C72 305.1 89.6 278.2 115.2 264.9C108.1 252.9 104 238.9 104 224C104 179.8 139.8 144 184 144L184 120zM456 120L456 144C500.2 144 536 179.8 536 224C536 239 531.9 253 524.8 264.9C550.5 278.2 568 305 568 336C568 362.2 555.4 385.4 536 400C546 413.4 552 430 552 448C552 492.2 516.2 528 472 528C471.3 528 470.7 528 470 528C462.9 555.6 437.8 576 408 576L376 576C358.3 576 344 561.7 344 544L344 96C344 78.3 358.3 64 376 64L400 64C430.9 64 456 89.1 456 120z' />
+      <path d='M320,64 L320,320 L64,320 L64,64 L320,64 Z M171.749388,128 L146.817842,128 L99.4840387,256 L121.976629,256 L130.913039,230.977 L187.575039,230.977 L196.319607,256 L220.167172,256 L171.749388,128 Z M260.093778,128 L237.691519,128 L237.691519,256 L260.093778,256 L260.093778,128 Z M159.094727,149.47526 L181.409039,213.333 L137.135039,213.333 L159.094727,149.47526 Z M341.333333,256 L384,256 L384,298.666667 L341.333333,298.666667 L341.333333,256 Z M85.3333333,341.333333 L128,341.333333 L128,384 L85.3333333,384 L85.3333333,341.333333 Z M170.666667,341.333333 L213.333333,341.333333 L213.333333,384 L170.666667,384 L170.666667,341.333333 Z M85.3333333,0 L128,0 L128,42.6666667 L85.3333333,42.6666667 L85.3333333,0 Z M256,341.333333 L298.666667,341.333333 L298.666667,384 L256,384 L256,341.333333 Z M170.666667,0 L213.333333,0 L213.333333,42.6666667 L170.666667,42.6666667 L170.666667,0 Z M256,0 L298.666667,0 L298.666667,42.6666667 L256,42.6666667 L256,0 Z M341.333333,170.666667 L384,170.666667 L384,213.333333 L341.333333,213.333333 L341.333333,170.666667 Z M0,256 L42.6666667,256 L42.6666667,298.666667 L0,298.666667 L0,256 Z M341.333333,85.3333333 L384,85.3333333 L384,128 L341.333333,128 L341.333333,85.3333333 Z M0,170.666667 L42.6666667,170.666667 L42.6666667,213.333333 L0,213.333333 L0,170.666667 Z M0,85.3333333 L42.6666667,85.3333333 L42.6666667,128 L0,128 L0,85.3333333 Z'></path>
     </svg>
   )
 
@@ -112,18 +111,13 @@ const porque = ({ lan }: { lan: string }) => {
 
   return (
     <section
-      className='px-4 max-w-6xl m-auto flex flex-col gap-y-12 mt-20'
+      className='px-4 max-w-6xl m-auto flex flex-col gap-y-12 mt-28'
       id='why-trotter'
     >
       <div className='max-w-2xl m-auto flex flex-col justify-center items-center gap-y-4 text-center'>
-        <h1 className='text-primary font-medium text-4xl lg:text-6xl'>
-          {lan === 'en' ? 'How we work' : 'Cómo funciona'}
+        <h1 className='text-primary font-medium text-5xl lg:text-7xl'>
+          {lan === 'en' ? 'The Trotter Way' : 'La manera de Trotter'}
         </h1>
-        <p className='font-medium lg:text-lg'>
-          {lan === 'en'
-            ? `Clients trust Trotter Law for business law, corporate transactions, M&A, and immigration matters for our practical, modern, dedicated, hands on and multilingual counsel.`
-            : `Los clientes confían en Trotter Law por la legalidad de negocios, transacciones corporativas, fusiones y inmigración para nuestra asesoría práctica, moderna, dedicada, en vivo y multilingüe.`}
-        </p>
       </div>
       <div className='max-w-4xl m-auto grid grid-cols-1 lg:grid-cols-3 gap-4'>
         {data.map((item, index) => (

@@ -43,7 +43,7 @@ const Footer = () => {
               <h3 className='font-bold text-xl'>{lan === 'es' ? 'Seguinos' : 'Follow Us'}</h3>
               <div className='flex items-center gap-x-4'>
                 <a
-                  href='https://www.linkedin.com/company/trotter-pro/'
+                  href='https://www.linkedin.com/in/m-victoria-sanchez-5b84251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
                   target='_blank'
                   rel='noreferrer'
                   className='hover:text-secondary'

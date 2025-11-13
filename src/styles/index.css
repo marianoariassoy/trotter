@@ -53,3 +53,7 @@ body {
 .text-tertiary {
   color: var(--color-tertiary);
 }
+
+.text-outline {
+  -webkit-text-stroke: 1px white; /* grosor y color del borde */
+}

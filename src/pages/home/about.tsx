@@ -57,7 +57,7 @@ const About = ({ lan }: { lan: string }) => {
     
       </div> */}
 
-      <div className='aspect-square lg:aspect-video w-full max-w-4xl m-auto z-20 px-4'>
+      <div className='aspect-square lg:aspect-video w-full max-w-4xl m-auto z-20 px-4 mt-28'>
         <img
           src='https://backend.ligadecapitanes.com.ar/trotter/images-static/aboutimage.jpg'
           alt='about'
@@ -66,46 +66,12 @@ const About = ({ lan }: { lan: string }) => {
       </div>
 
       <div className='max-w-4xl m-auto flex flex-col gap-y-4 px-4'>
-        <h3 className='font-medium text-center text-2xl'>Global mindset. Tech powered. Client first. Real results.</h3>
-        <div className='text-sm lg:text-lg lg:leading-6 font-medium whitespace-break-spaces text-center'>
-          {/* <h3 className='font-bold'>{lan === 'en' ? 'Founder | Trotter' : 'Fundador | Trotter'}</h3> */}
+        <h3 className='font-medium text-center text-xl lg:text-3xl'>
+          Global mindset. Tech powered. Client first. Real results.
+        </h3>
+        <div className='lg:text-lg lg:leading-6 font-medium whitespace-break-spaces text-center'>
           {loading ? <Loader /> : lan === 'en' ? data[1].text_en : data[1].text}
         </div>
-        {lan === 'en' ? (
-          <div className='text-primary text-xl flex flex-col justify-center items-center leading-6 text-center'>
-            <span className='font-bold'>Admitted to:</span>
-            <span className='font-semibold'>
-              • New York <br />• Florida
-            </span>
-            <span className='font-bold mt-4'>Languages:</span>
-            <span className='font-semibold'>
-              • English (fluent) <br />
-              • Spanish (native / fluent)
-              <br />
-              • Portuguese (fluent)
-              <br />
-              • Turkish (conversational)
-              <br />
-            </span>
-          </div>
-        ) : (
-          <div className='text-primary text-xl flex flex-col justify-center items-center leading-6 text-center'>
-            <span className='font-bold'>Admitida en:</span>
-            <span className='font-semibold'>
-              • Nueva York <br />• Florida
-            </span>
-            <span className='font-bold mt-4'>Idiomas:</span>
-            <span className='font-semibold'>
-              • Inglés (fluente) <br />
-              • Español (nativo / fluente)
-              <br />
-              • Portugués (fluente)
-              <br />
-              • Turco (conversacional)
-              <br />
-            </span>
-          </div>
-        )}
       </div>
     </div>
   )

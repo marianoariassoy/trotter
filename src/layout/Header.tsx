@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <header className='fixed w-screen top-6 z-50 px-2'>
-      <div className='w-full m-auto max-w-6xl py-6 px-8 rounded-full bg-white/60 backdrop-blur-lg flex justify-between items-center gap-4'>
+      <div className='w-full m-auto max-w-6xl py-6 px-6 rounded-full bg-white/60 backdrop-blur-lg flex justify-between items-center gap-4'>
         <div>
           <Link
             to='/'
@@ -41,7 +41,7 @@ const Header = () => {
           </Link>
         </div>
         <nav className='hidden lg:block'>
-          <ul className='flex gap-4 font-semibold text-sm items-center flex-wrap'>
+          <ul className='flex gap-3 font-semibold text-sm items-center flex-wrap'>
             {menu.map((item, index) => (
               <li
                 key={index}
@@ -150,7 +150,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href='https://www.linkedin.com/company/trotter-pro/'
+                href='https://www.linkedin.com/in/m-victoria-sanchez-5b84251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
                 target='_blank'
                 rel='noreferrer'
                 className='hover:text-secondary'
@@ -170,7 +170,6 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-
         <div
           className='nav-menu lg:hidden'
           onClick={OpenMenu}

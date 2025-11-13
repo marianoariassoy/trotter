@@ -18,11 +18,15 @@ const Hora = ({ lan }: { lan: string }) => {
         />
       </div>
       <div className='absolute inset-0 bg-gradient-to-b from-white/50 via-transparent to-white'></div>;
-      <div className='relative z-10 max-w-4xl m-auto flex flex-col gap-y-4 lg:gap-y-10 items-center justify-center text-center px-8'>
+      <div className='relative z-10 max-w-4xl m-auto flex flex-col gap-y-4 items-center justify-center text-center px-8'>
         <div className='flex flex-col gap-y-4'>
-          <h1 className='text-4xl lg:text-6xl text-primary font-medium'>
-            {lan === 'en' ? 'Smart, Strategic, and Trusted Legal counsel' : 'Negocio y Asesora Legal de Calidad'}
-          </h1>
+          <div className='text-4xl lg:text-6xl font-medium flex items-center justify-center flex-wrap gap-x-2'>
+            <h2 className='text-primary'>Trotter Law</h2>
+            <h1 className='text-primary'>
+              {lan === 'en' ? 'Smart, Strategic, and Trusted Legal counsel' : 'Negocio y Asesora Legal de Calidad'}
+            </h1>
+          </div>
+
           <span className='font-medium text-center text-2xl'>
             {lan === 'en'
               ? 'Modern Law. Powered by technology with human approach'
@@ -30,14 +34,14 @@ const Hora = ({ lan }: { lan: string }) => {
           </span>
         </div>
 
-        <div className='font-medium m-auto whitespace-break-spaces'>
+        <div className='font-medium m-auto whitespace-break-spaces text-lg'>
           {loading ? <Loader /> : lan === 'en' ? data[0].text_en : data[0].text}
         </div>
         <a
           href='http://'
           target='_blank'
           rel='noopener noreferrer'
-          className='p-4 px-8 mt-4 font-medium bg-primary text-white text-center rounded-full hover:bg-primary/80'
+          className='p-4 px-8 text-lg mt-4 font-medium bg-primary text-white text-center rounded-full hover:bg-black/90'
         >
           {lan === 'en' ? 'Book Appointment' : 'Reservar una cita'}
         </a>

@@ -6,7 +6,7 @@ export const menu = [
     subMenu: []
   },
   {
-    title_es: 'Por Que Trotter',
+    title_es: 'Por Qué Trotter',
     title_en: 'How We Work',
     tag: 'why-trotter',
     subMenu: []
@@ -18,7 +18,7 @@ export const menu = [
     subMenu: []
   },
   {
-    title_es: 'Areas de Practica',
+    title_es: 'Áreas de Práctica',
     title_en: 'Practice Areas',
     tag: 'practice-areas',
     subMenu: [
