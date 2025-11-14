@@ -15,13 +15,8 @@ const Articulos = ({ lan }: { lan: string }) => {
       <div className='px-4 max-w-5xl m-auto flex flex-col lg:flex-row gap-4'>
         <div className='lg:w-2/5'>
           <h1 className='text-primary font-medium text-5xl lg:text-7xl mb-2 pr-20'>
-            {lan === 'en' ? 'Articles Videos Posts' : 'Video Artículos y Posts'}
+            {lan === 'en' ? 'Resources' : 'Recursos'}
           </h1>
-          {/* <p className='font-medium lg:text-xl mb-4'>
-            {lan === 'en'
-              ? 'Articles, videos, and posts on Linkedin.'
-              : 'Publicaciones, artículos y videos en Linkdin.'}
-          </p> */}
         </div>
         <div className='flex flex-col gap-y-4 lg:w-3/5'>
           {data.map((item, index) => (

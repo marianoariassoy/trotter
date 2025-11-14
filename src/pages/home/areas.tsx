@@ -110,7 +110,7 @@ const AboutText = ({ lan }: { lan: string }) => {
       text_es: 'desde la redacción hasta la ejecución, asegurando cumplimiento.'
     },
     {
-      title_en: 'Plan posst-closing integrations',
+      title_en: 'Plan post-closing integrations',
       text_en: 'supporting smooth transitions for teams, operations, and governance.',
       title_es: 'Planificación de integración después de cierre',
       text_es: 'apoyando transiciones suaves para equipos, operaciones y gobernanza.'

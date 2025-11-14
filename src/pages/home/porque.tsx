@@ -1,7 +1,7 @@
 const porque = ({ lan }: { lan: string }) => {
   const Icon1 = () => (
     <svg
-      className='h-16 fill-current'
+      className='h-15 fill-current'
       viewBox='0 0 512 512'
     >
       <path d='M320,64 L320,320 L64,320 L64,64 L320,64 Z M171.749388,128 L146.817842,128 L99.4840387,256 L121.976629,256 L130.913039,230.977 L187.575039,230.977 L196.319607,256 L220.167172,256 L171.749388,128 Z M260.093778,128 L237.691519,128 L237.691519,256 L260.093778,256 L260.093778,128 Z M159.094727,149.47526 L181.409039,213.333 L137.135039,213.333 L159.094727,149.47526 Z M341.333333,256 L384,256 L384,298.666667 L341.333333,298.666667 L341.333333,256 Z M85.3333333,341.333333 L128,341.333333 L128,384 L85.3333333,384 L85.3333333,341.333333 Z M170.666667,341.333333 L213.333333,341.333333 L213.333333,384 L170.666667,384 L170.666667,341.333333 Z M85.3333333,0 L128,0 L128,42.6666667 L85.3333333,42.6666667 L85.3333333,0 Z M256,341.333333 L298.666667,341.333333 L298.666667,384 L256,384 L256,341.333333 Z M170.666667,0 L213.333333,0 L213.333333,42.6666667 L170.666667,42.6666667 L170.666667,0 Z M256,0 L298.666667,0 L298.666667,42.6666667 L256,42.6666667 L256,0 Z M341.333333,170.666667 L384,170.666667 L384,213.333333 L341.333333,213.333333 L341.333333,170.666667 Z M0,256 L42.6666667,256 L42.6666667,298.666667 L0,298.666667 L0,256 Z M341.333333,85.3333333 L384,85.3333333 L384,128 L341.333333,128 L341.333333,85.3333333 Z M0,170.666667 L42.6666667,170.666667 L42.6666667,213.333333 L0,213.333333 L0,170.666667 Z M0,85.3333333 L42.6666667,85.3333333 L42.6666667,128 L0,128 L0,85.3333333 Z'></path>
@@ -121,7 +121,7 @@ const porque = ({ lan }: { lan: string }) => {
       </div>
       <div className='max-w-4xl m-auto grid grid-cols-1 lg:grid-cols-3 gap-4'>
         {data.map((item, index) => (
-          <div
+          <article
             key={index}
             className='group relative border border-primary rounded-3xl p-4 flex flex-col gap-y-2 items-start aspect-[7/4] overflow-hidden'
           >
@@ -131,13 +131,13 @@ const porque = ({ lan }: { lan: string }) => {
             ></div>
 
             <div className='relative z-10'>
-              <div className='text-primary mb-2'>{item.icon}</div>
-              <h1 className='text-primary font-medium text-xl lg:text-2xl leading-5 mb-2'>
+              <div className='text-primary mb-2 h-12'>{item.icon}</div>
+              <h1 className='text-primary font-medium text-xl lg:text-xl leading-5 mb-1'>
                 {lan === 'en' ? item.title_en : item.title_es}
               </h1>
-              <p className='leading-5'>{lan === 'en' ? item.text_en : item.text_es}</p>
+              <p className='leading-4'>{lan === 'en' ? item.text_en : item.text_es}</p>
             </div>
-          </div>
+          </article>
         ))}
       </div>
     </section>
