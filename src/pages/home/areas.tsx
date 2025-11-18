@@ -37,20 +37,20 @@ const AboutText = ({ lan }: { lan: string }) => {
     },
     {
       title_en: 'Draft and negotiate solid contracts',
-      text_en: 'vendor, client, and partnership agreements that protect your business interests',
+      text_en: 'Vendor, client, and partnership agreements that protect your business interests',
       title_es: 'Redactar contratos y negociaciones',
       text_es: 'Contratos de proveedores, clientes y sociedades cooperativas que protegen tus intereses comerciales'
     },
     {
       title_en: 'Manage your team with conﬁdence',
-      text_en: 'clear executive agreements, employee and compliance manuals and non-compete policies.',
+      text_en: 'Clear executive agreements, employee and compliance manuals and non-compete policies.',
       title_es: 'Orientación jurídica sobre empleo',
       text_es: 'Contratos de ejecutivo, cumplimiento, no compete, manuales de empleo y políticas de no compete.'
     },
     {
       title_en: 'Get dat-to-day legal support',
       text_en:
-        'ongoing guidance for founders, managers and executives to navigate challenges as your business evolves.',
+        'Ongoing guidance for founders, managers and executives to navigate challenges as your business evolves.',
       title_es: 'Asistencia jurídica de día a día',
       text_es:
         'Asistencia jurídica de empresas, fundadores y ejecutivos para navegar los desafíos a medida que evoluciona tu negocio.'
@@ -60,7 +60,7 @@ const AboutText = ({ lan }: { lan: string }) => {
   const dataCorporate = [
     {
       title_en: 'Build solid governance structures',
-      text_en: 'shareholder agreements, bylaws, and board policies that promote clarity and trust. ',
+      text_en: 'Shareholder agreements, bylaws, and board policies that promote clarity and trust. ',
       title_es: 'Construye estructuras de gobernanza solidas',
       text_es:
         'contratos de acciones, leyes de asociación y políticas del consejo que promocionan claridad y confianza.'
@@ -81,9 +81,8 @@ const AboutText = ({ lan }: { lan: string }) => {
         'Navegar ﬁnancias y inversiones de capital — asistencia jurídica para seguros, notas convertibles y redondeos de capital.'
     },
     {
-      title_en: 'Get day-to-day legal support',
-      text_en:
-        'Structure strategic partnerships and joint ventures — from negotiation to execution, aligning interests and protecting value.',
+      title_en: 'Structure strategic partnerships and joint ventures',
+      text_en: 'From negotiation to execution, aligning interests and protecting value.',
       title_es: 'Asistencia jurídica de día a día',
       text_es:
         'Estructurar asociaciones estratégicas y inversiones — desde la negociación hasta la ejecución, alinando intereses y protegiendo valor.'
@@ -93,25 +92,25 @@ const AboutText = ({ lan }: { lan: string }) => {
   const dataMergers = [
     {
       title_en: 'Conduct thorough due diligence',
-      text_en: 'uncover risks and identify opportunities before closing.',
+      text_en: 'Uncover risks and identify opportunities before closing.',
       title_es: 'Revisión de riesgos y evaluación de riesgos',
       text_es: 'descubrir riesgos y identificar oportunidades antes de cerrar.'
     },
     {
-      title_en: 'Structure and negotiate win-win deals',
-      text_en: 'purchase agreements, investment terms, and shareholder arrangements that safeguard your interests.',
+      title_en: 'Structure and negotiate deals',
+      text_en: 'Purchase agreements, investment terms, and shareholder arrangements that safeguard your interests.',
       title_es: 'Redactar contratos y negociaciones',
       text_es: 'contratos de compra, términos de inversión y arreglos de acciones que protegen tus intereses.'
     },
     {
       title_en: 'Close transactions efﬁciently',
-      text_en: 'from drafting to execution, ensuring compliance.',
+      text_en: 'From drafting to execution, ensuring compliance.',
       title_es: 'Cerrar transacciones de forma efﬁciente',
       text_es: 'desde la redacción hasta la ejecución, asegurando cumplimiento.'
     },
     {
       title_en: 'Plan post-closing integrations',
-      text_en: 'supporting smooth transitions for teams, operations, and governance.',
+      text_en: 'Supporting smooth transitions for teams, operations, and governance.',
       title_es: 'Planificación de integración después de cierre',
       text_es: 'apoyando transiciones suaves para equipos, operaciones y gobernanza.'
     }
@@ -121,54 +120,48 @@ const AboutText = ({ lan }: { lan: string }) => {
     {
       title_en: 'Design the right visa strategy ',
       text_en:
-        'for founders, investors,  and professionals (B1/B2, EB-1A, EB-2  NIW, O-1A, E-1, E-2, naturalisation and more).',
+        'For founders, investors,  and professionals (B1/B2, EB-1A, EB-2  NIW, O-1A, E-1, E-2, naturalization and more).',
       title_es: 'Diseña la estrategia de visa adecuada',
       text_es:
         'para los fundadores, inversionistas y profesionales (B1/B2, EB-1A, EB-2 NIW, O-1A, E-1, E-2, naturalización y más).'
     },
     {
       title_en: 'Ensure compliance and readiness ',
-      text_en: 'guiding corporations through immigration audits and documentation.',
+      text_en: 'Guiding corporations through immigration audits and documentation.',
       title_es: 'Asegura cumplimiento y preparación',
       text_es: 'guiando a las empresas a través de auditorías y documentación de inmigración.'
     },
     {
       title_en: 'Support global mobility programs ',
-      text_en: 'facilitating smooth relocation and work authorisation for international teams',
+      text_en: 'Facilitating smooth relocation and work authorisation for international teams',
       title_es: 'Apoya programas de movilidad global',
       text_es:
         'facilitando la relación suave de la relocalización y la autorización de trabajo para equipos internacionales'
-    },
-    {
-      title_en: 'Advise on family and humanitarian options',
-      text_en: 'offering compassionate, effective legal pathways for individuals and families.',
-      title_es: 'Orienta sobre opciones de inmigración basadas en la familia y humanitaria',
-      text_es: 'ofreciendo caminos legales compasivos y efectivos para individuos y familias.'
     }
   ]
 
   const dataCrossBorder = [
     {
       title_en: 'Structure and negotiate international',
-      text_en: 'transactions that align with your strategic objectives.',
+      text_en: 'Transactions that align with your strategic objectives.',
       title_es: 'Estructura y negocia transacciones internacionales',
       text_es: 'que alineen con tus objetivos estratégicos.'
     },
     {
       title_en: 'Ensure compliance with foreign investment, corporate, and regulatory ',
-      text_en: 'requirements in multiple jurisdictions.',
+      text_en: 'Requirements in multiple jurisdictions.',
       title_es: 'Asegura cumplimiento con las leyes de inversión extranjera, corporativa y regulatoria',
       text_es: 'requisitos en múltiples jurisdicciones.'
     },
     {
       title_en: 'Assess and manage multijurisdictional risks',
-      text_en: 'from due diligence to dispute prevention.',
+      text_en: 'From due diligence to dispute prevention.',
       title_es: 'Evalua y gestiona riesgos multilingüísticos',
       text_es: 'desde la revisión de riesgos hasta la prevención de disputas.'
     },
     {
       title_en: 'Integrate legal, and operational strategies',
-      text_en: 'for smooth cross-border execution.',
+      text_en: 'For smooth cross-border execution.',
       title_es: 'Integra estrategias legales y operativas',
       text_es: 'para una ejecución suave de transfronterizas.'
     }

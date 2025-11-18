@@ -23,21 +23,12 @@ const Footer = () => {
                 <h3 className='font-semibold text-xl'>{lan === 'es' ? 'Contacto.' : 'Contact.'}</h3>
                 <span>+1 (786) 832-0763</span>
                 <a
-                  href='mailto:info@trotter.pro'
+                  href='mailto:victoria@trotter.law'
                   className='underline'
                 >
-                  info@trotter.pro
+                  victoria@trotter.law
                 </a>
               </div>
-
-              <a
-                href='https://www.trotter.pro/'
-                target='_blank'
-                rel='noreferrer'
-                className='border border-white font-semibold px-6 py-2 rounded-full hover:text-secondary hover:border-secondary text-2xl mt-4'
-              >
-                Trotter.pro
-              </a>
             </div>
             <div className='flex flex-col gap-y-4 text-white'>
               <h3 className='font-bold text-xl'>{lan === 'es' ? 'Seguinos' : 'Follow Us'}</h3>
@@ -79,7 +70,7 @@ const Footer = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                {lan === 'es' ? 'Términos de uso' : 'Terms and condictions'}
+                {lan === 'es' ? 'Términos de uso' : 'Terms and conditions'}
               </Link>
               <span>|</span>
               <Link

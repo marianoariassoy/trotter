@@ -6,9 +6,7 @@ import { dataContact } from '../../lib/data'
 
 const Form = ({ lan }: { lan: string }) => {
   type Inputs = {
-    name: string
     email: string
-    message: string
   }
 
   const [sended, setSended] = useState(false)
@@ -36,7 +34,7 @@ const Form = ({ lan }: { lan: string }) => {
   }
 
   const Error = () => {
-    return <div className='text-sm font-medium mt-1 text-secondary pl-4'>{dataContact[lan].required}</div>
+    return <div className='text-sm font-medium mt-1 text-secondary text-left pl-4'>{dataContact[lan].required}</div>
   }
 
   return (
@@ -53,25 +51,24 @@ const Form = ({ lan }: { lan: string }) => {
           <div className='w-full'>
             <input
               className='w-full border border-primary h-11 rounded-full px-4 text-sm font-medium'
-              placeholder={dataContact[lan].name}
-              {...register('name', { required: true })}
-            />
-            {errors.name && <Error />}
-          </div>
-          <div className='w-full'>
-            <input
-              className='w-full border border-primary h-11 rounded-full px-4 text-sm font-medium'
               placeholder={dataContact[lan].email}
               {...register('email', { required: true })}
             />
             {errors.email && <Error />}
           </div>
-          <textarea
-            className='w-full border border-primary h-44 rounded-3xl p-4 text-sm font-medium'
-            placeholder={dataContact[lan].message}
-            {...register('message')}
-          />
-          <div className='flex justify-center w-full'>
+          <div className='flex justify-center w-full my-2'>
+            <input
+              type='checkbox'
+              className='w-4 h-4 text-primary border-primary rounded-full'
+            />
+            <span className='text-sm font-medium ml-2 '>
+              {lan === 'en'
+                ? 'I agree to receive email updates and newsletters from Trotter'
+                : 'Acepto recibir actualizaciones por email y boletines de Trotter'}
+            </span>
+          </div>
+
+          <div className='flex items-center justify-center w-full'>
             {sending ? (
               <BeatLoader className='mt-6' />
             ) : (
@@ -80,7 +77,7 @@ const Form = ({ lan }: { lan: string }) => {
                 id='button-form'
                 className='font-semibold text-white h-11 transition px-8 rounded-full bg-primary hover:bg-secondary cursor-pointer'
               >
-                {dataContact[lan].send}
+                {lan === 'en' ? 'Subscribe' : 'Suscribirse'}
               </button>
             )}
           </div>

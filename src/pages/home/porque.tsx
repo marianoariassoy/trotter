@@ -135,7 +135,7 @@ const porque = ({ lan }: { lan: string }) => {
               <h1 className='text-primary font-medium text-xl lg:text-xl leading-5 mb-1'>
                 {lan === 'en' ? item.title_en : item.title_es}
               </h1>
-              <p className='leading-4'>{lan === 'en' ? item.text_en : item.text_es}</p>
+              <p className='leading-4 text-sm'>{lan === 'en' ? item.text_en : item.text_es}</p>
             </div>
           </article>
         ))}

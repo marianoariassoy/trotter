@@ -36,7 +36,7 @@ const Header = () => {
             <img
               src='/assets/logo-main.svg'
               alt='logo'
-              className='h-5 lg:h-6'
+              className='h-5 lg:h-7'
             />
           </Link>
         </div>

@@ -27,6 +27,29 @@ const About = ({ lan }: { lan: string }) => {
         <div className='lg:text-lg lg:leading-6 font-medium whitespace-break-spaces text-center'>
           {loading ? <Loader /> : lan === 'en' ? data[1].text_en : data[1].text}
         </div>
+        <div className='flex flex-col gap-y-4 mt-8 justify-center items-center text-center font-medium'>
+          <h2 className='text-xl text-primary font-bold'>{lan === 'en' ? 'CREDENTIALS:' : 'CREDENCIALES:'}</h2>
+          <div className='flex flex-col'>
+            <h3 className='text-primary font-bold'>{lan === 'en' ? 'EDUCATION:' : 'EDUCACIÓN:'}</h3>
+            <span>&bull; LLM Harvard Law School</span>
+            <span>&bull; Universidad Católica Argentina (Medalla de Oro)</span>
+          </div>
+          <div className='flex flex-col'>
+            <h3 className='text-primary font-bold'>
+              {lan === 'en' ? 'ADMITTED TO PRACTICE:' : 'APROBADO EN PRACTICA:'}
+            </h3>
+            <span>&bull; New York</span>
+            <span>&bull; Argentina</span>
+            <span>&bull; Florida</span>
+          </div>
+          <div className='flex flex-col'>
+            <h3 className='text-primary font-bold'>{lan === 'en' ? 'LANGUAGES:' : 'IDIOMAS:'}</h3>
+            <span>&bull; English</span>
+            <span>&bull; Spanish</span>
+            <span>&bull; Portuguese</span>
+            <span>&bull; Turkish</span>
+          </div>
+        </div>
       </div>
     </div>
   )
