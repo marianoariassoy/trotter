@@ -1,5 +1,5 @@
 import { useDataContext } from '../context/useDataContext'
-import { Link } from 'wouter'
+// import { Link } from 'wouter'
 
 const Footer = () => {
   const { lan } = useDataContext()
@@ -55,32 +55,32 @@ const Footer = () => {
           <div className='border-t border-white mt-8 pt-8 flex flex-col lg:flex-row justify-between lg:items-center pb-8 gap-2 text-sm lg:text-base'>
             <div>Copyright Trotter Law 2025</div>
             <div className='flex items-center gap-x-4 flex-wrap'>
-              <Link
+              {/* <Link
                 href='https://www.trotter.pro/privacy-policy'
                 target='_blank'
                 rel='noreferrer'
                 className='hover:underline'
               >
                 {lan === 'es' ? 'Política de privacidad' : 'Privacy Policy'}
-              </Link>
-              <span>|</span>
-              <Link
-                href='https://www.trotter.pro/terms-of-use'
+              </Link> */}
+              {/* <span>|</span> */}
+              <a
+                href='/assets/TrotterLawPLLCprivacypolicy.docx'
                 className='hover:underline'
                 target='_blank'
                 rel='noreferrer'
               >
-                {lan === 'es' ? 'Términos de uso' : 'Terms and conditions'}
-              </Link>
+                {lan === 'es' ? 'Política de privacidad' : 'Privacy Policy'}
+              </a>
               <span>|</span>
-              <Link
-                href='https://www.trotter.pro/legal-disclaimer'
+              <a
+                href='/assets/LegalDisclaimerTrotterLAW.docx'
                 className='hover:underline'
                 target='_blank'
                 rel='noreferrer'
               >
                 {lan === 'es' ? 'Aviso legal' : 'Legal disclaimer'}
-              </Link>
+              </a>
             </div>
           </div>
         </div>
