@@ -1,5 +1,5 @@
 import { useDataContext } from '../context/useDataContext'
-// import { Link } from 'wouter'
+import { Link } from 'wouter'
 
 const Footer = () => {
   const { lan } = useDataContext()
@@ -55,32 +55,19 @@ const Footer = () => {
           <div className='border-t border-white mt-8 pt-8 flex flex-col lg:flex-row justify-between lg:items-center pb-8 gap-2 text-sm lg:text-base'>
             <div>Copyright Trotter Law 2025</div>
             <div className='flex items-center gap-x-4 flex-wrap'>
-              {/* <Link
-                href='https://www.trotter.pro/privacy-policy'
-                target='_blank'
-                rel='noreferrer'
+              <Link
+                href='/privacypolicy'
                 className='hover:underline'
               >
                 {lan === 'es' ? 'Política de privacidad' : 'Privacy Policy'}
-              </Link> */}
-              {/* <span>|</span> */}
-              <a
-                href='/assets/TrotterLawPLLCprivacypolicy.docx'
-                className='hover:underline'
-                target='_blank'
-                rel='noreferrer'
-              >
-                {lan === 'es' ? 'Política de privacidad' : 'Privacy Policy'}
-              </a>
+              </Link>
               <span>|</span>
-              <a
-                href='/assets/LegalDisclaimerTrotterLAW.docx'
+              <Link
+                href='/legaldisclaimer'
                 className='hover:underline'
-                target='_blank'
-                rel='noreferrer'
               >
                 {lan === 'es' ? 'Aviso legal' : 'Legal disclaimer'}
-              </a>
+              </Link>
             </div>
           </div>
         </div>

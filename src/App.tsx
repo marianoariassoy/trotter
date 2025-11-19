@@ -1,6 +1,8 @@
 import { Route, Switch } from 'wouter'
 import Home from './pages/home'
 import Posts from './pages/posts'
+import LegalDisclaimer from './pages/legal'
+import PrivacyPolicy from './pages/privacy'
 
 const App = () => {
   return (
@@ -20,6 +22,14 @@ const App = () => {
       <Route
         path='/posts/:slug'
         component={Posts}
+      />
+      <Route
+        path='/legaldisclaimer'
+        component={LegalDisclaimer}
+      />
+      <Route
+        path='/privacypolicy'
+        component={PrivacyPolicy}
       />
     </Switch>
   )
