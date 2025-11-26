@@ -64,7 +64,7 @@ const Form = ({ lan }: { lan: string }) => {
             <span className='text-sm font-medium ml-2 '>
               {lan === 'en'
                 ? 'I agree to receive email updates and newsletters from Trotter'
-                : 'Acepto recibir actualizaciones por email y boletines de Trotter'}
+                : 'Acepto recibir actualizaciones por correo electrónico y el newsletter de Trotter.'}
             </span>
           </div>
 
@@ -77,7 +77,7 @@ const Form = ({ lan }: { lan: string }) => {
                 id='button-form'
                 className='font-semibold text-white h-11 transition px-8 rounded-full bg-primary hover:bg-secondary cursor-pointer'
               >
-                {lan === 'en' ? 'Subscribe' : 'Suscribirse'}
+                {lan === 'en' ? 'Subscribe' : 'Suscribirme'}
               </button>
             )}
           </div>

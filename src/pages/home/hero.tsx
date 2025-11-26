@@ -23,13 +23,15 @@ const Hora = ({ lan }: { lan: string }) => {
           <div className='text-4xl lg:text-6xl font-medium flex items-center justify-center flex-wrap gap-x-2'>
             <h2 className='text-primary'>Trotter Law</h2>
             <h1 className='text-primary'>
-              {lan === 'en' ? 'Smart, Strategic, and Trusted Legal counsel' : 'Negocio y Asesora Legal de Calidad'}
+              {lan === 'en'
+                ? 'Smart, Strategic, and Trusted Legal counsel'
+                : 'Asesoría legal inteligente, estratégica y de confianza'}
             </h1>
           </div>
 
           <span className='font-medium text-center text-2xl'>
             {lan === 'en'
-              ? 'Modern Law. Powered by technology with human approach'
+              ? 'Derecho moderno. Impulsado por la tecnología con enfoque humano'
               : 'Negocio moderno. Con tecnología y enfoque humano'}
           </span>
         </div>
@@ -41,9 +43,9 @@ const Hora = ({ lan }: { lan: string }) => {
           href='http://'
           target='_blank'
           rel='noopener noreferrer'
-          className='p-4 px-8 text-lg mt-4 font-medium bg-primary text-white text-center rounded-full hover:bg-black/90'
+          className='p-4 px-8 text-lg mt-4 font-medium bg-primary text-white text-center rounded-full hover:bg-black/90 uppercase'
         >
-          {lan === 'en' ? 'Book Appointment' : 'Reservar una cita'}
+          {lan === 'en' ? 'Book Appointment' : 'Agendar consulta'}
         </a>
       </div>
     </section>

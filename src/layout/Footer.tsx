@@ -17,7 +17,9 @@ const Footer = () => {
             <div className='flex flex-col gap-y-4 items-start'>
               <div className='flex flex-col'>
                 <h3 className='font-semibold text-xl'>M. Victoria Sánchez, Esq.</h3>
-                <span>{lan === 'es' ? 'Licenciada en Florida & New York' : 'Licensed in Florida & New York'}</span>
+                <span>
+                  {lan === 'es' ? 'Habilitada para ejercer en Florida y Nueva York' : 'Licensed in Florida & New York'}
+                </span>
               </div>
               <div className='flex flex-col'>
                 <h3 className='font-semibold text-xl'>{lan === 'es' ? 'Contacto.' : 'Contact.'}</h3>

@@ -145,7 +145,7 @@ const Header = () => {
                 rel='noreferrer'
                 className='border px-4 py-3 rounded-full hover:text-secondary hover:border-secondary'
               >
-                {lan === 'es' ? 'Reservar una cita' : 'Book Appointment'}
+                {lan === 'es' ? 'Agendar consulta' : 'Book Appointment'}
               </a>
             </li>
             <li>

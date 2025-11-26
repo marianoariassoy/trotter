@@ -9,7 +9,7 @@ const contacto = ({ lan }: { lan: string }) => {
     >
       <div className='flex flex-col gap-y-8 w-full'>
         <h1 className='text-primary text-center font-medium text-5xl lg:text-7xl '>
-          {lan === 'en' ? 'Get in Touch' : 'Contáctenos'}
+          {lan === 'en' ? 'Get in Touch' : 'Contacto'}
         </h1>
         <div className='w-full max-w-xl m-auto'>
           <Form lan={lan} />
@@ -17,12 +17,12 @@ const contacto = ({ lan }: { lan: string }) => {
       </div>
       <div className='flex flex-col gap-y-2 w-full text-center'>
         <h1 className='text-primary text-center font-medium text-xl lg:text-3xl'>
-          {lan === 'en' ? 'Subscribe to our newsletter' : 'Suscríbete a nuestro boletín'}
+          {lan === 'en' ? 'Subscribe to our newsletter' : 'Suscríbete a nuestro newsletter'}
         </h1>
         <p className='font-medium mb-2 max-w-64 m-auto'>
           {lan === 'en'
             ? 'To receive important updates in the current changing environment.'
-            : 'Recibe las últimas noticias y perspectivas de nuestro equipo.'}
+            : 'Para acceder a información precisa y actualizada en un panorama regulatorio dinámico.'}
         </p>
         <div className='w-full max-w-xl m-auto'>
           <Newsletter lan={lan} />

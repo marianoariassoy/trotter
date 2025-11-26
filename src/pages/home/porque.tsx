@@ -116,7 +116,7 @@ const porque = ({ lan }: { lan: string }) => {
     >
       <div className='max-w-2xl m-auto flex flex-col justify-center items-center gap-y-4 text-center'>
         <h1 className='text-primary font-medium text-5xl lg:text-7xl'>
-          {lan === 'en' ? 'The Trotter Way' : 'La manera de Trotter'}
+          {lan === 'en' ? 'The Trotter Way' : 'Trotter Way'}
         </h1>
       </div>
       <div className='max-w-4xl m-auto grid grid-cols-1 lg:grid-cols-3 gap-4'>

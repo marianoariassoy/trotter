@@ -38,7 +38,7 @@ const areasTip = ({
       </div>
       <div className='text-center border border-primary p-8 lg:px-20 rounded-4xl flex flex-col gap-y-2'>
         <h2 className='text-primary font-medium text-2xl lg:text-4xl'>
-          {lan === 'en' ? 'Why it matters:' : '¿Por qué es importante?'}
+          {lan === 'en' ? 'Why it matters:' : '¿Por qué es relevante?'}
         </h2>
         <p className='font-medium text-lg lg:text-xl max-w-3xl m-auto leading-6'>{text2}</p>
       </div>

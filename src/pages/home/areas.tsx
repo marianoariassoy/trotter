@@ -7,15 +7,15 @@ const AboutText = ({ lan }: { lan: string }) => {
   const data = [
     {
       title_en: 'Business Law',
-      title_es: 'Negocios Legales'
+      title_es: 'DERECHO COMERCIAL'
     },
     {
       title_en: 'Corporate Law & Governance',
-      title_es: 'Derecho corporativo y gobernanza'
+      title_es: 'DERECHO SOCIETARIO Y GOBERNANZA CORPORATIVA'
     },
     {
       title_en: 'Mergers & Acquisitions',
-      title_es: 'Fusiones y adquisiciones'
+      title_es: 'MERGERS & ACQUISITIONS (M&A)'
     },
     {
       title_en: 'Immigration & Global Mobility',
@@ -23,7 +23,7 @@ const AboutText = ({ lan }: { lan: string }) => {
     },
     {
       title_en: 'Cross-Border & International Transactions',
-      title_es: 'Transacciones transbordadoras y internacionales'
+      title_es: 'TRANSACCIONES TRANSFRONTERIZAS E INTERNACIONALES'
     }
   ]
 
@@ -31,29 +31,28 @@ const AboutText = ({ lan }: { lan: string }) => {
     {
       title_en: 'Form and structure your company',
       text_en: 'LLCs, corporations, and partnerships designed for growth and investor readiness.',
-      title_es: 'Formación y estructuración de tu empresa',
-      text_es:
-        'Sociedades de responsabilidad limitada, empresas y sociedades cooperativas diseñadas para crecer y ser aptas para inversores.'
+      title_es: 'Constituya y estructure su empresa',
+      text_es: 'Creación de LLCs, corporaciones y sociedades diseñadas para crecer y atraer inversores.'
     },
     {
       title_en: 'Draft and negotiate solid contracts',
       text_en: 'Vendor, client, and partnership agreements that protect your business interests',
-      title_es: 'Redactar contratos y negociaciones',
-      text_es: 'Contratos de proveedores, clientes y sociedades cooperativas que protegen tus intereses comerciales'
+      title_es: 'Redacte y negocie contratos sólidos',
+      text_es: 'Acuerdos con proveedores, clientes y socios comerciales que protegen los intereses de su empresa.'
     },
     {
       title_en: 'Manage your team with conﬁdence',
       text_en: 'Clear executive agreements, employee and compliance manuals and non-compete policies.',
-      title_es: 'Orientación jurídica sobre empleo',
-      text_es: 'Contratos de ejecutivo, cumplimiento, no compete, manuales de empleo y políticas de no compete.'
+      title_es: 'Gestione su equipo con confianza',
+      text_es: 'Redacción de contratos ejecutivos, manuales de empleados y cumplimiento, y políticas de no competencia.'
     },
     {
       title_en: 'Get dat-to-day legal support',
       text_en:
         'Ongoing guidance for founders, managers and executives to navigate challenges as your business evolves.',
-      title_es: 'Asistencia jurídica de día a día',
+      title_es: 'Reciba acompañamiento legal en el día a día',
       text_es:
-        'Asistencia jurídica de empresas, fundadores y ejecutivos para navegar los desafíos a medida que evoluciona tu negocio.'
+        'Asesoramiento continuo para fundadores, gerentes y ejecutivos a fin de navegar desafíos a medida que su negocio evoluciona..'
     }
   ]
 
@@ -61,31 +60,27 @@ const AboutText = ({ lan }: { lan: string }) => {
     {
       title_en: 'Build solid governance structures',
       text_en: 'Shareholder agreements, bylaws, and board policies that promote clarity and trust. ',
-      title_es: 'Construye estructuras de gobernanza solidas',
-      text_es:
-        'contratos de acciones, leyes de asociación y políticas del consejo que promocionan claridad y confianza.'
+      title_es: 'Construir estructuras de gobierno corporativo sólidas',
+      text_es: 'Acuerdos de accionistas, estatutos y políticas de directorio que promueven claridad y confianza..'
     },
     {
       title_en: 'Draft and negotiate solid contracts',
       text_en:
         'Manage corporate compliance — ensuring your company meets Florida and federal requirements while minimising risk.',
-      title_es: 'Redactar contratos y negociaciones',
-      text_es:
-        'Manejar el cumplimiento corporativo — asegurando que tu empresa cumple los requisitos de Florida y federales mientras minimizas los riesgos.'
+      title_es: 'Gestionar el cumplimiento corporativo',
+      text_es: 'Asegurar que su empresa cumpla con los requisitos de Florida y federales, minimizando riesgos.'
     },
     {
       title_en: 'Manage your team with conﬁdence',
       text_en: 'Navigate ﬁnancing and capital raises — legal support for safes, convertible notes, and equity rounds.',
-      title_es: 'Orientación jurídica sobre empleo',
-      text_es:
-        'Navegar ﬁnancias y inversiones de capital — asistencia jurídica para seguros, notas convertibles y redondeos de capital.'
+      title_es: 'Navegar procesos de financiamiento y levantamiento de capitalo',
+      text_es: 'Asesoramiento legal para SAFEs, notas convertibles y rondas de equity.'
     },
     {
       title_en: 'Structure strategic partnerships and joint ventures',
       text_en: 'From negotiation to execution, aligning interests and protecting value.',
-      title_es: 'Asistencia jurídica de día a día',
-      text_es:
-        'Estructurar asociaciones estratégicas y inversiones — desde la negociación hasta la ejecución, alinando intereses y protegiendo valor.'
+      title_es: 'Estructurar alianzas estratégicas y joint ventures',
+      text_es: 'Desde la negociación hasta la ejecución, alineando intereses y protegiendo valor.'
     }
   ]
 
@@ -93,26 +88,26 @@ const AboutText = ({ lan }: { lan: string }) => {
     {
       title_en: 'Conduct thorough due diligence',
       text_en: 'Uncover risks and identify opportunities before closing.',
-      title_es: 'Revisión de riesgos y evaluación de riesgos',
-      text_es: 'descubrir riesgos y identificar oportunidades antes de cerrar.'
+      title_es: 'Llevando a cabo una due diligence exhaustiva',
+      text_es: 'Identificación de riesgos y oportunidades antes del cierre.'
     },
     {
       title_en: 'Structure and negotiate deals',
       text_en: 'Purchase agreements, investment terms, and shareholder arrangements that safeguard your interests.',
-      title_es: 'Redactar contratos y negociaciones',
-      text_es: 'contratos de compra, términos de inversión y arreglos de acciones que protegen tus intereses.'
+      title_es: 'Estructurando y negociando deals',
+      text_es: 'Contratos de compra, términos de inversión y acuerdos entre accionistas que resguardan sus intereses. '
     },
     {
       title_en: 'Close transactions efﬁciently',
       text_en: 'From drafting to execution, ensuring compliance.',
-      title_es: 'Cerrar transacciones de forma efﬁciente',
-      text_es: 'desde la redacción hasta la ejecución, asegurando cumplimiento.'
+      title_es: 'Cerrando operaciones de M&A de manera eficiente',
+      text_es: 'Desde la redacción hasta la ejecución, garantizando cumplimiento en cada instancia.'
     },
     {
       title_en: 'Plan post-closing integrations',
       text_en: 'Supporting smooth transitions for teams, operations, and governance.',
-      title_es: 'Planificación de integración después de cierre',
-      text_es: 'apoyando transiciones suaves para equipos, operaciones y gobernanza.'
+      title_es: 'Planificando la integración posterior al cierre',
+      text_es: 'Acompañamiento para transiciones fluidas en equipos, operaciones y gobernanza corporativa..'
     }
   ]
 
@@ -121,22 +116,21 @@ const AboutText = ({ lan }: { lan: string }) => {
       title_en: 'Design the right visa strategy ',
       text_en:
         'For founders, investors,  and professionals (B1/B2, EB-1A, EB-2  NIW, O-1A, E-1, E-2, naturalization and more).',
-      title_es: 'Diseña la estrategia de visa adecuada',
+      title_es: 'Diseñamos la estrategia de visa adecuada',
       text_es:
-        'para los fundadores, inversionistas y profesionales (B1/B2, EB-1A, EB-2 NIW, O-1A, E-1, E-2, naturalización y más).'
+        'Para fundadores, inversores y profesionales (B1/B2, EB-1A, EB-2 NIW, O-1A, E-1, E-2, naturalización, entre otras).'
     },
     {
       title_en: 'Ensure compliance and readiness ',
       text_en: 'Guiding corporations through immigration audits and documentation.',
-      title_es: 'Asegura cumplimiento y preparación',
-      text_es: 'guiando a las empresas a través de auditorías y documentación de inmigración.'
+      title_es: 'Garantizamos el cumplimiento y preparación',
+      text_es: 'Acompañando a corporaciones en auditorías migratorias y gestión documental..'
     },
     {
       title_en: 'Support global mobility programs ',
       text_en: 'Facilitating smooth relocation and work authorisation for international teams',
-      title_es: 'Apoya programas de movilidad global',
-      text_es:
-        'facilitando la relación suave de la relocalización y la autorización de trabajo para equipos internacionales'
+      title_es: 'Respaldamos programas de movilidad global l',
+      text_es: 'Facilitando procesos de relocation y autorizaciones de trabajo para equipos internacionales.'
     }
   ]
 
@@ -144,45 +138,45 @@ const AboutText = ({ lan }: { lan: string }) => {
     {
       title_en: 'Structure and negotiate international',
       text_en: 'Transactions that align with your strategic objectives.',
-      title_es: 'Estructura y negocia transacciones internacionales',
-      text_es: 'que alineen con tus objetivos estratégicos.'
+      title_es: 'Estructuramos y negociamos transacciones internacionales',
+      text_es: 'Alineadas con sus objetivos estratégicos.'
     },
     {
       title_en: 'Ensure compliance with foreign investment, corporate, and regulatory ',
       text_en: 'Requirements in multiple jurisdictions.',
-      title_es: 'Asegura cumplimiento con las leyes de inversión extranjera, corporativa y regulatoria',
-      text_es: 'requisitos en múltiples jurisdicciones.'
+      title_es: 'Garantizamos el cumplimiento ',
+      text_es: 'En materia de inversión extranjera, normas societarias y regulación en diversas jurisdicciones.'
     },
     {
       title_en: 'Assess and manage multijurisdictional risks',
       text_en: 'From due diligence to dispute prevention.',
-      title_es: 'Evalua y gestiona riesgos multilingüísticos',
-      text_es: 'desde la revisión de riesgos hasta la prevención de disputas.'
+      title_es: 'Evaluamos y gestionamos riesgos multijurisdiccionales',
+      text_es: 'Desde la due diligence hasta la prevención de disputas.'
     },
     {
       title_en: 'Integrate legal, and operational strategies',
       text_en: 'For smooth cross-border execution.',
-      title_es: 'Integra estrategias legales y operativas',
-      text_es: 'para una ejecución suave de transfronterizas.'
+      title_es: 'Integramos estrategias legales y operativas',
+      text_es: 'Para una ejecución transfronteriza fluida.'
     }
   ]
 
   return (
-    <div className='relative mt-28'>
+    <div className='relative mt-20'>
       <section
-        className='max-w-5xl m-auto mt-12 lg:mt-20 px-4'
+        className='max-w-5xl m-auto px-4'
         id='practice-areas'
       >
         <div>
           <h1 className='text-primary font-medium text-5xl lg:text-7xl pr-20 mb-8'>
-            {lan === 'en' ? 'Practice Areas ' : 'Áreas de Practica'}
+            {lan === 'en' ? 'Practice Areas ' : 'Áreas de Práctica'}
           </h1>
 
           <div className='flex items-center gap-2 flex-wrap mb-4'>
             {data.map((item, index) => (
               <button
                 key={index}
-                className={`border text-sm border-primary rounded-full p-4 text-primary font-semibold hover:text-white  ${
+                className={`border text-sm border-primary rounded-full p-4 text-primary font-semibold hover:text-white uppercase ${
                   active === item.title_en ? 'bg-primary cursor-pointer text-white' : 'hover:bg-primary cursor-pointer'
                 }`}
                 onClick={() => setActive(item.title_en)}
@@ -199,18 +193,18 @@ const AboutText = ({ lan }: { lan: string }) => {
             subtitle={
               lan === 'en'
                 ? 'Build or grow your business with clarity and conﬁdence.'
-                : 'Construya o crezca tu negocio con claridad y confianza.'
+                : 'Construya o desarrolle su negocio con claridad y confianza.'
             }
             text={
               lan === 'en'
                 ? 'We combine corporate law, and strategy — helping founders and companies make informed decisions from day one. '
-                : 'Combinamos el derecho corporativo y la estrategia — ayudando a los fundadores y las empresas a tomar decisiones informadas desde el principio. '
+                : 'Combinamos el derecho corporativo y la estrategia — ayudando a los fundadores y las empresas a tomar decisiones informadas desde el día uno.'
             }
             items={dataBusiness}
             text2={
               lan === 'en'
                 ? 'Smart business law isn’t just about avoiding risks — it’s about building a strong foundation that lets you grow sustainably and focus on what matters most: your vision. OUR MANTRA IS M&A READY FROM DAY ONE.'
-                : 'La legalidad de negocios inteligente no es solo sobre evitar riesgos — es sobre construir una base fuerte que te permita crecer sosteniblemente y centrarte en lo que importa más: tu visión. NUESTRA MANTRA ES M&A LISTA DESDE EL PRIMER DIA.'
+                : 'El derecho empresarial inteligente no se trata solo de evitar riesgos: se trata de construir una base sólida que le permita crecer de manera sostenible y enfocarse en lo que realmente importa: su visión. Nuestro mantra: listos para M&A desde el día uno.'
             }
             lan={lan}
           />
@@ -222,18 +216,18 @@ const AboutText = ({ lan }: { lan: string }) => {
             subtitle={
               lan === 'en'
                 ? 'Smart, strategic decisions for your company.'
-                : 'Decisiones estratégicas inteligentes para tu empresa.'
+                : 'Decisiones inteligentes y estratégicas para su empresa.'
             }
             text={
               lan === 'en'
                 ? 'Tailored legal counsel to private and closely held companies, guiding founders, boards, and executives to:'
-                : 'Orientación jurídica personalizada a las empresas privadas y bien tiendas, guiando a los fundadores, consejeros y ejecutivos a:'
+                : 'Asesoramiento legal a medida para compañías privadas y de capital cerrado, guiando a fundadores, directorios y ejecutivos para:'
             }
             items={dataCorporate}
             text2={
               lan === 'en'
                 ? 'Strong governance and smart corporate structuring are the backbone of sustainable growth.'
-                : 'La gobernanza y estructuración corporativa inteligente son los pilares de crecimiento sostenible.'
+                : 'Una gobernanza corporativa sólida y una estructura societaria inteligente son la columna vertebral de un crecimiento sostenible..'
             }
             lan={lan}
           />
@@ -245,18 +239,18 @@ const AboutText = ({ lan }: { lan: string }) => {
             subtitle={
               lan === 'en'
                 ? 'Grow, merge, or sell your business with certainty.'
-                : 'Crece, fusione o vende tu negocio con certeza.'
+                : 'Crezca, fusiónese o venda su empresa con certeza.'
             }
             text={
               lan === 'en'
                 ? 'End-to-end legal guidance for buyers, sellers, and investors to minimise risk, protect value, and move smoothly through each stage of the process:'
-                : 'Orientación jurídica de alto nivel para compradores, vendedores y inversores para minimizar los riesgos, proteger el valor y moverse de forma fluida a través de cada etapa del proceso:'
+                : 'Asesoramiento legal integral para compradores, vendedores e inversores, orientado a minimizar riesgos, proteger valor y acompañar cada etapa del proceso de M&A:'
             }
             items={dataMergers}
             text2={
               lan === 'en'
                 ? 'Smart M&A deal planning and precise execution turn complex transactions into lasting growth — protecting your investment and setting the stage for future success.'
-                : 'Planificación y ejecución de negocios M&A inteligentes y precisas convierten transacciones complejas en crecimiento duradero — protegiendo tu inversión y estableciendo el escenario para el éxito futuro.'
+                : 'Una planificación inteligente y una ejecución precisa en procesos de M&A convierten transacciones complejas en crecimiento sostenible, protegen su inversión y preparan el terreno para el éxito futuro.'
             }
             lan={lan}
           />
@@ -268,18 +262,18 @@ const AboutText = ({ lan }: { lan: string }) => {
             subtitle={
               lan === 'en'
                 ? 'Expand your opportunities — and your team — with conﬁdence. '
-                : 'Amplía tus oportunidades — y tu equipo — con confianza.'
+                : 'Expanda sus oportunidades — y su equipo — con confianza.'
             }
             text={
               lan === 'en'
                 ? 'We help corporations, executives, and individuals navigate U.S. immigration law with clarity and precision — from investor and talent visas to full corporate relocations.'
-                : 'Ayudamos a las empresas, ejecutivos y particulares a navegar la legislación migratoria estadounidense con claridad y precisión — desde las visas de inversión y talento hasta las relocaciones corporativas completas.'
+                : 'Asesoramos a corporaciones, ejecutivos e individuos en derecho migratorio de los Estados Unidos — desde visas para inversores y profesionales hasta relocations.'
             }
             items={dataInmigration}
             text2={
               lan === 'en'
                 ? 'Strategic immigration guidance empowers companies and individuals to grow, move, and thrive within the U.S. — without uncertainty or unnecessary delays.'
-                : 'La inmigración no es solo papeleo, sino que se trata de asegurar el futuro, mover el talento y hacer crecer los negocios a nivel mundial.'
+                : 'Un asesoramiento migratorio estratégico permite que empresas e individuos crezcan, se trasladen y prosperen dentro de los Estados Unidos — sin incertidumbre ni demoras innecesarias.'
             }
             lan={lan}
           />
@@ -295,18 +289,18 @@ const AboutText = ({ lan }: { lan: string }) => {
             subtitle={
               lan === 'en'
                 ? 'Where global vision meets legal precision.'
-                : 'Donde la visión global se encuentra con precisión legal.'
+                : 'Donde la visión global se encuentra con la precisión jurídica.'
             }
             text={
               lan === 'en'
                 ? 'For businesses and investors operating across jurisdictions, we deliver tailored strategies to structure deals, ensure compliance, and align local law and regulatory frameworks, while working with local counsel in each jurisdiction.'
-                : 'Para empresas e inversores que operan en diferentes jurisdicciones, ofrecemos estrategias personalizadas para estructurar negocios, asegurar cumplimiento y alinear marcos de ley y regulación locales, mientras trabajamos con asesores locales en cada jurisdicción.'
+                : 'Asesoramos a empresas e inversores que operan en múltiples jurisdicciones de la siguiente manera:'
             }
             items={dataCrossBorder}
             text2={
               lan === 'en'
                 ? 'Global business demands local expertise in every market — and the ability to connect it all through one trusted legal partner.'
-                : 'Demandas comerciales globales exigen experiencia local en cada mercado — y la capacidad de conectarlo todo a través de un socio legal confiable.'
+                : 'El negocio global exige conocimiento local en cada mercado — y la capacidad de integrarlo todo a través de un socio estratégico legal de confianza..'
             }
             lan={lan}
           />

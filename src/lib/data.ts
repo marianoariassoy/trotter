@@ -1,18 +1,18 @@
 export const menu = [
   {
-    title_es: 'Inicio',
+    title_es: 'Home',
     title_en: 'Home',
     tag: 'home',
     subMenu: []
   },
   {
-    title_es: 'Por Qué Trotter',
+    title_es: 'Trotter Way',
     title_en: 'How We Work',
     tag: 'why-trotter',
     subMenu: []
   },
   {
-    title_es: 'Nosotros',
+    title_es: 'El Estudio',
     title_en: 'About',
     tag: 'about',
     subMenu: []
@@ -50,7 +50,7 @@ export const menu = [
     ]
   },
   {
-    title_es: 'Recursos',
+    title_es: 'Blog',
     title_en: 'Resources',
     tag: 'articles',
     subMenu: [
@@ -93,7 +93,7 @@ export const dataContact = {
     send: 'Enviar',
     thanks: '¡Su mensaje fue enviado! Gracias por contactarte con nosotros.',
     error: 'Se produjo un error al enviar el mensaje :-(',
-    required: 'Por favor complete este dat'
+    required: 'Por favor complete este dato.'
   },
   en: {
     name: 'Full name',
@@ -102,6 +102,6 @@ export const dataContact = {
     send: 'Send',
     thanks: 'Your message was sent! Thank you for contacting us.',
     error: 'An error occurred while sending the message :-(',
-    required: 'Please complete this field'
+    required: 'Please complete this field.'
   }
 }

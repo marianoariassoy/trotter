@@ -22,28 +22,32 @@ const About = ({ lan }: { lan: string }) => {
         <h3 className='font-medium text-center text-xl lg:text-3xl'>
           {lan === 'en'
             ? 'Global mindset. Tech - powered. Clients first. Real results.'
-            : 'Mente global. Tecnología - impulsada. Clientes primero. Resultados reales.'}
+            : 'Tecnología que acelera. Experiencia que respalda. Cercanía que construye relaciones.'}
         </h3>
         <div className='lg:text-lg lg:leading-6 font-medium whitespace-break-spaces text-center'>
           {loading ? <Loader /> : lan === 'en' ? data[1].text_en : data[1].text}
         </div>
-        <div className='flex flex-col gap-y-4 mt-8 justify-center items-center text-center font-medium'>
-          <h2 className='text-xl text-primary font-bold'>{lan === 'en' ? 'CREDENTIALS:' : 'CREDENCIALES:'}</h2>
+
+        <h2 className='text-xl lg:text-2xl text-primary font-bold text-center my-4'>
+          {lan === 'en' ? 'CREDENTIALS' : 'CREDENCIALES'}
+        </h2>
+
+        <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 text-center font-medium'>
           <div className='flex flex-col'>
-            <h3 className='text-primary font-bold'>{lan === 'en' ? 'EDUCATION:' : 'EDUCACIÓN:'}</h3>
+            <h3 className='text-primary font-bold text-xl'>{lan === 'en' ? 'EDUCATION:' : 'EDUCACIÓN:'}</h3>
             <span>&bull; LLM Harvard Law School</span>
             <span>&bull; Universidad Católica Argentina (Medalla de Oro)</span>
           </div>
           <div className='flex flex-col'>
-            <h3 className='text-primary font-bold'>
-              {lan === 'en' ? 'ADMITTED TO PRACTICE:' : 'APROBADO EN PRACTICA:'}
+            <h3 className='text-primary font-bold uppercase text-xl'>
+              {lan === 'en' ? 'ADMITTED TO PRACTICE:' : 'Admisiones profesionales:'}
             </h3>
             <span>&bull; New York</span>
             <span>&bull; Argentina</span>
             <span>&bull; Florida</span>
           </div>
           <div className='flex flex-col'>
-            <h3 className='text-primary font-bold'>{lan === 'en' ? 'LANGUAGES:' : 'IDIOMAS:'}</h3>
+            <h3 className='text-primary font-bold text-xl'>{lan === 'en' ? 'LANGUAGES:' : 'IDIOMAS:'}</h3>
             <span>&bull; English</span>
             <span>&bull; Spanish</span>
             <span>&bull; Portuguese</span>
