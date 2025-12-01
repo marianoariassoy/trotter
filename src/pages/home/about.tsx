@@ -47,11 +47,23 @@ const About = ({ lan }: { lan: string }) => {
             <span>&bull; Florida</span>
           </div>
           <div className='flex flex-col'>
-            <h3 className='text-primary font-bold text-xl'>{lan === 'en' ? 'LANGUAGES:' : 'IDIOMAS:'}</h3>
-            <span>&bull; English</span>
-            <span>&bull; Spanish</span>
-            <span>&bull; Portuguese</span>
-            <span>&bull; Turkish</span>
+            {lan === 'en' ? (
+              <>
+                <h3 className='text-primary font-bold text-xl'>LANGUAGES</h3>
+                <span>&bull; English</span>
+                <span>&bull; Spanish</span>
+                <span>&bull; Portuguese</span>
+                <span>&bull; Turkish</span>
+              </>
+            ) : (
+              <>
+                <h3 className='text-primary font-bold text-xl'>IDIOMAS</h3>
+                <span>&bull; Inglés</span>
+                <span>&bull; Español</span>
+                <span>&bull; Portugués</span>
+                <span>&bull; Turco</span>
+              </>
+            )}
           </div>
         </div>
       </div>

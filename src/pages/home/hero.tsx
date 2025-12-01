@@ -31,8 +31,8 @@ const Hora = ({ lan }: { lan: string }) => {
 
           <span className='font-medium text-center text-2xl'>
             {lan === 'en'
-              ? 'Derecho moderno. Impulsado por la tecnología con enfoque humano'
-              : 'Negocio moderno. Con tecnología y enfoque humano'}
+              ? 'Modern Law. Powered by technology with human approach'
+              : 'Derecho moderno. Impulsado por la tecnología con enfoque humano'}
           </span>
         </div>
 
@@ -40,7 +40,7 @@ const Hora = ({ lan }: { lan: string }) => {
           {loading ? <Loader /> : lan === 'en' ? data[0].text_en : data[0].text}
         </div>
         <a
-          href='http://'
+          href='https://calendly.com/m-victoria-sanchez-post/30min?back=1&month=2025-07'
           target='_blank'
           rel='noopener noreferrer'
           className='p-4 px-8 text-lg mt-4 font-medium bg-primary text-white text-center rounded-full hover:bg-black/90 uppercase'

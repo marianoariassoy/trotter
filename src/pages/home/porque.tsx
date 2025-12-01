@@ -63,47 +63,47 @@ const porque = ({ lan }: { lan: string }) => {
       title_en: 'Smart Tech Efficiency.',
       text_en: 'Legal expertise enhanced by AI and automation to make processes faster. ',
       title_es: 'Eficiencia tecnológica inteligente.',
-      text_es: 'Experiencia legal mejorada por AI y automatización para mejorar el flujo de trabajo. ',
+      text_es: 'Experiencia legal potenciada por IA y automatización para agilizar procesos.',
       image: '/assets/porque1.jpg',
       icon: <Icon1 />
     },
     {
       title_en: 'Transparent Fees.',
       text_en: 'No surprises. Flat fee, retainer and other arrangements available.',
-      title_es: 'Tarifas transparentes.',
-      text_es: 'Sin sorpresas. Tarifa plana, retención y otras disposiciones disponibles.',
+      title_es: 'Fees Transparentes.',
+      text_es: 'Sin sorpresas. Tarifas fijas, retainer y otros esquemas disponibles.',
       image: '/assets/porque2.jpg',
       icon: <Icon2 />
     },
     {
       title_en: '25+ years.',
       text_en: 'Navigating corporate, business, M&A, and immigration challenges.',
-      title_es: '25+ años.',
-      text_es: 'Navegando desafíos de negocios, corporativos, fusiones y inmigración.',
+      title_es: 'Más de 25 años de experiencia.',
+      text_es: 'Acompañando desafíos corporativos, comerciales, de M&A e inmigración.',
       image: '/assets/porque3.jpg',
       icon: <Icon3 />
     },
     {
       title_en: 'Hands-On Partnership.',
       text_en: 'Involved from start to finish.',
-      title_es: 'Asociación en vivo.',
-      text_es: 'Involucrado desde el principio hasta el final.',
+      title_es: 'Compromiso y asesoramiento cercano.',
+      text_es: 'Acompañamiento de principio a fin.',
       image: '/assets/porque1.jpg',
       icon: <Icon4 />
     },
     {
       title_en: 'Global Mindset.',
       text_en: 'Multilingual and multicultural approach for cross-border success.',
-      title_es: 'Mente global.',
-      text_es: 'Apto multi-lenguaje y multicultural para lograr éxito en el extranjero.',
+      title_es: 'Mindset Global.',
+      text_es: 'Enfoque multilingüe y multicultural para operaciones transfronterizas.',
       image: '/assets/porque2.jpg',
       icon: <Icon5 />
     },
     {
       title_en: 'Business-First Perspective.',
       text_en: 'Legal expertise with entrepreneurial insight.',
-      title_es: 'Perspectiva empresarial.',
-      text_es: 'Experiencia legal con perspectiva empresarial.',
+      title_es: ' Enfoque con criterio Empresarial.',
+      text_es: 'Experiencia legal con intuición emprendedora.',
       image: '/assets/porque3.jpg',
       icon: <Icon6 />
     }
