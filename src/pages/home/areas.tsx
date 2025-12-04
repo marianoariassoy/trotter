@@ -73,7 +73,7 @@ const AboutText = ({ lan }: { lan: string }) => {
     {
       title_en: 'Manage your team with conﬁdence',
       text_en: 'Navigate ﬁnancing and capital raises — legal support for safes, convertible notes, and equity rounds.',
-      title_es: 'Navegar procesos de financiamiento y levantamiento de capitalo',
+      title_es: 'Navegar procesos de financiamiento y levantamiento de capital',
       text_es: 'Asesoramiento legal para SAFEs, notas convertibles y rondas de equity.'
     },
     {
@@ -113,7 +113,7 @@ const AboutText = ({ lan }: { lan: string }) => {
 
   const dataInmigration = [
     {
-      title_en: 'Design the right visa strategy ',
+      title_en: 'Design the right visa strategy',
       text_en:
         'For founders, investors,  and professionals (B1/B2, EB-1A, EB-2  NIW, O-1A, E-1, E-2, naturalization and more).',
       title_es: 'Diseñamos la estrategia de visa adecuada',
@@ -129,7 +129,7 @@ const AboutText = ({ lan }: { lan: string }) => {
     {
       title_en: 'Support global mobility programs ',
       text_en: 'Facilitating smooth relocation and work authorisation for international teams',
-      title_es: 'Respaldamos programas de movilidad global l',
+      title_es: 'Respaldamos programas de movilidad global',
       text_es: 'Facilitando procesos de relocation y autorizaciones de trabajo para equipos internacionales.'
     }
   ]
@@ -212,7 +212,7 @@ const AboutText = ({ lan }: { lan: string }) => {
 
         {active === 'Corporate Law & Governance' && (
           <AreasArticle
-            title={lan === 'en' ? 'Corporate Law & Governance' : 'Derecho corporativo y gobernanza'}
+            title={lan === 'en' ? 'Corporate Law & Governance' : 'Derecho societario y gobernanza corporativa'}
             subtitle={
               lan === 'en'
                 ? 'Smart, strategic decisions for your company.'
