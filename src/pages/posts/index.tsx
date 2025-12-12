@@ -68,7 +68,7 @@ const Index = () => {
             ) : (
               postSection.map((item, index) => (
                 <Link
-                  href={item.url}
+                  href={`/${item.url}`}
                   key={index}
                   className={`border border-primary px-8 py-2 text-lg rounded-2xl font-medium hover:text-white hover:bg-primary transition-all ${
                     '/' + section + '/' + slug === item.url ? 'bg-primary text-white' : ''
@@ -97,8 +97,8 @@ const Index = () => {
               <div>
                 <div className='aspect-square lg:aspect-[7/5] overflow-hidden rounded-2xl'>
                   <Image
-                    src='/images/article1.jpg'
-                    alt=''
+                    src={data.image}
+                    alt={data.title}
                   />
                 </div>
               </div>
