@@ -31,12 +31,12 @@ const Hora = ({ lan }: { lan: string }) => {
 
           <span className='font-medium text-center text-2xl'>
             {lan === 'en'
-              ? 'Modern Law. Powered by technology with human approach'
-              : 'Derecho moderno. Impulsado por la tecnología con enfoque humano'}
+              ? 'Modern Law. Powered by technology with human approach.'
+              : 'Derecho moderno. Impulsado por la tecnología con enfoque humano.'}
           </span>
         </div>
 
-        <div className='font-medium m-auto whitespace-break-spaces text-lg'>
+        <div className='font-medium m-auto whitespace-break-spaces text-[1.1rem]'>
           {loading ? <Loader /> : lan === 'en' ? data[0].text_en : data[0].text}
         </div>
         <a
