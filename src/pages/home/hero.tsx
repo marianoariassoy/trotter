@@ -12,7 +12,7 @@ const Hora = ({ lan }: { lan: string }) => {
     >
       <div className='aspect-square lg:aspect-video w-full mt-40 mb-4 max-w-4xl m-auto z-20'>
         <img
-          src='https://backend.ligadecapitanes.com.ar/trotter/images-static/mainimage.jpg'
+          src='https://trotter.law/backend/images-static/mainimage.jpg'
           alt='logo'
           className='w-full h-full rounded-4xl object-cover z-20'
         />

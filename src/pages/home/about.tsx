@@ -12,7 +12,7 @@ const About = ({ lan }: { lan: string }) => {
     >
       <div className='aspect-square lg:aspect-video w-full max-w-4xl m-auto z-20 px-4 mt-28'>
         <img
-          src='https://backend.ligadecapitanes.com.ar/trotter/images-static/aboutimage.jpg'
+          src='https://trotter.law/backend/images-static/aboutimage.jpg'
           alt='about'
           className='w-full h-full rounded-4xl object-cover'
         />
